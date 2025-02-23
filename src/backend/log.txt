@@ -1,0 +1,54 @@
+Raw data: 
+No raw data received.
+Raw data: {"requestData":{"selectedGoalIds":["2","5"],"userId":"107"}}
+Decoded Data:
+User ID: 107
+Selected Goal IDs: Array
+(
+    [0] => 2
+    [1] => 5
+)
+
+User 107: Found 0 record(s).
+Inserted record: user_id = 107, fitness_goal_id = 2
+Inserted record: user_id = 107, fitness_goal_id = 5
+Raw data: 
+No raw data received.
+Raw data: {"requestData":{"selectedGoalIds":["3","5"],"userId":"107"}}
+Decoded Data:
+User ID: 107
+Selected Goal IDs: Array
+(
+    [0] => 3
+    [1] => 5
+)
+
+User 107: Found 2 record(s).
+User 107: Deleted 2 record(s).
+Inserted record: user_id = 107, fitness_goal_id = 3
+Inserted record: user_id = 107, fitness_goal_id = 5
+Raw data: 
+No raw data received.
+Raw data: {"requestData":{"selectedGoalIds":[],"userId":"107"}}
+Decoded Data:
+User ID: 107
+Selected Goal IDs: Array
+(
+)
+
+User 107: Found 2 record(s).
+User 107: Deleted 2 record(s).
+Raw data: 
+No raw data received.
+Raw data: {"requestData":{"selectedGoalIds":["1","5"],"userId":"107"}}
+Decoded Data:
+User ID: 107
+Selected Goal IDs: Array
+(
+    [0] => 1
+    [1] => 5
+)
+
+User 107: Found 0 record(s).
+Inserted record: user_id = 107, fitness_goal_id = 1
+Inserted record: user_id = 107, fitness_goal_id = 5
