@@ -9,12 +9,14 @@ import AdminHome from "./components/AdminHome";
 import Profile from "./components/profile";
 import SetGoal from "./components/SetGoal";
 import Dashboard from "./components/Dashboard";
+import ExerciseSearch from "./components/ExerciseSearch";
+import ExerciseDetail from "./components/ExerciseDetail";
 function App() {
   return (
     <Router>
       <div className="App">
-        <h1>Fitness App</h1>
         <Routes>
+          <Route path="/Home/ExerciseSearch" element={<ExerciseSearch />} />
           <Route path="/SetGoal" element={<SetGoal />} />
           <Route path="/" element={<Welcome />} />
           <Route path="/AdminHome" element={<AdminHome />} />
@@ -23,8 +25,9 @@ function App() {
           <Route path="/Login" element={<Login />} />
           <Route path="/Profile" element={<Profile />} />
           <Route path="/Dashboard" element={<Dashboard />} />
+          <Route path="/Home/ExerciseSearch/ExerciseDetail" element={<ExerciseDetail />} />
 
-
+    
 
         </Routes>
       </div>
