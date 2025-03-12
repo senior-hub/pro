@@ -4,6 +4,8 @@ header('Content-Type: application/json; charset=UTF-8'); // Set content type to 
 header('Access-Control-Allow-Origin: *'); // Allow any domain to access this API
 header('Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS'); // Allow specific HTTP methods
 header('Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept, Authorization'); // Allow certain headers
+header('Access-Control-Allow-Origin: http://localhost:3000'); // Adjust this if your frontend URL is different
+header('Access-Control-Allow-Credentials: true'); // If you are dealing with cookies
 
 // Set internal character encoding to UTF-8
 mb_internal_encoding("UTF-8");

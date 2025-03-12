@@ -1,11 +1,8 @@
 <?php
-header('Access-Control-Allow-Origin: http://localhost:3000'); // Adjust this if your frontend URL is different
-header('Access-Control-Allow-Methods: GET, POST'); // Allowable methods
-header('Access-Control-Allow-Headers: Content-Type'); // Needed for POST requests that have body data
-header('Access-Control-Allow-Credentials: true'); // If you are dealing with cookies
-header('Content-Type: application/json');
 
-include '../../config/db.php'; // Ensure this path is correct
+include '../../config/db.php'; 
+include '../../config/config.php';
+
 
 if ($db instanceof mysqli) {
     $result = $db->query("SELECT id, goal_name FROM `fitness_goals`");

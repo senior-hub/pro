@@ -1,18 +1,10 @@
 <?php
-header("Content-Type: application/json");
-header("Access-Control-Allow-Origin: *");
-header("Access-Control-Allow-Methods: POST");
-header("Access-Control-Allow-Headers: Content-Type");
 
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "fitness";
+
+include '../../config/db.php';   //  database connection
+include '../../config/config.php';
 
 try {
-    // Connect to the database
-    $conn = new PDO("mysql:host=$servername;dbname=$dbname;charset=utf8mb4", $username, $password);
-    $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
     // Get the raw POST data and decode it
     $inputJSON = file_get_contents("php://input");
@@ -21,14 +13,23 @@ try {
     // Extract search term
     $query = isset($input['name']) ? trim($input['name']) : '';
 
+
     if (!empty($query)) {
+
         // Prepare SQL statement
-        $sql = "SELECT * FROM exercises WHERE name LIKE :query";
-        $stmt = $conn->prepare($sql);
-        $stmt->execute(['query' => "%$query%"]);
+        $sql = "SELECT * FROM exercises WHERE name LIKE ?";
+        $stmt = $db->prepare($sql);
+        $query_param = "%$query%";
+        $stmt->bind_param("s", $query_param);
+        $stmt->execute();
 
         // Fetch results
-        $results = $stmt->fetchAll(PDO::FETCH_ASSOC);
+        $result = $stmt->get_result();
+        $results = $result ? $result->fetch_all(MYSQLI_ASSOC) : [];
+
+        // Close statement
+        $stmt->close();
+        $db->close();
 
         // Decode JSON fields before sending the response
         foreach ($results as &$exercise) {
@@ -48,9 +49,17 @@ try {
         }
 
         echo json_encode($results, JSON_PRETTY_PRINT);
+
+
+
+
+
+
+
     } else {
         echo json_encode([]);
     }
-} catch (PDOException $e) {
-    echo json_encode(["error" => "Database error: " . $e->getMessage()]);
+} catch (mysqli_sql_exception $e) {
+    error_log("MySQLi Error: " . $e->getMessage());
+    echo json_encode(["error" => "Database error occurred"]);
 }

@@ -1,10 +1,9 @@
+import { useApp } from "../context/AppContext";
 import React, { useEffect } from 'react';
-import { useNavigate } from 'react-router-dom';
 
 function Dashboard() {
-  const navigate = useNavigate();
 
-  const userId = sessionStorage.getItem("userId");
+  const { navigate, userId, theme, toggleTheme } = useApp();
 
   useEffect(() => {
     const loggedIn = sessionStorage.getItem("loggedIn");
