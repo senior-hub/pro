@@ -1,25 +1,16 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
+import { useApp } from "../context/AppContext";
 
 function SetGoal() {
-    const navigate = useNavigate();
+    const { navigate, userId, theme, toggleTheme } = useApp();
+
     
-      const userId = sessionStorage.getItem("userId");
-    
-      useEffect(() => {
-        const loggedIn = sessionStorage.getItem("loggedIn");
-    
-        if (!loggedIn) {
-          navigate("/login");
-        }
-      }, [navigate]);
-    
+  
 
     const [goals, setGoals] = useState([]);
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
-
-    const [selectedOptions, setSelectedOptions] = useState([]);
     const [checkedGoals, setCheckedGoals] = useState({});
 
 
@@ -35,7 +26,7 @@ function SetGoal() {
 
 
         //send request to get "Fitness Goals" from backend
-        fetch('http://localhost/my-app/src/backend/SetGoal.php', { credentials: 'include' })
+        fetch('http://localhost/my-app/src/backend/FetchGoals.php', { credentials: 'include' })
             .then(response => {
                 if (!response.ok) throw new Error('Network response was not ok');
                 return response.json();
@@ -73,12 +64,11 @@ function SetGoal() {
         try {
           // Filter to get only the IDs of the checked goals
           const selectedGoalIds = Object.keys(checkedGoals).filter(goalId => checkedGoals[goalId]);
-          setSelectedOptions(selectedGoalIds);
       
           const requestData = { selectedGoalIds, userId };
           console.log("Sending Data:", requestData);
       
-          const response = await fetch("http://localhost/my-app/src/backend/test.php", {
+          const response = await fetch("http://localhost/my-app/src/backend/insetGoals.php", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({ requestData })

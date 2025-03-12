@@ -1,7 +1,9 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import { useApp } from "../context/AppContext";
 
 const SignUp = () => {
+    const { setUserId, setLoggedIn } = useApp();
     const [name, setName] = useState("");
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
@@ -14,36 +16,28 @@ const SignUp = () => {
     const [confirmPasswordError, setConfirmPasswordError] = useState("");
     const [NameError, setNameError] = useState("");
 
+
     const handleSubmit = async (e) => {
+
         e.preventDefault();
-        
+            sessionStorage.clear();
 
-            let valid = true;
-            // ✅ Improved validation with correct error assignments
-            if (!email.trim()) {
-                setEmailError("Email is required");
-                valid = false;
-            }
-            if (!password.trim()) {
-                setPasswordError("Password is required");
-                valid = false;
-            }
-            if (!confirmPassword.trim()) {
-                setConfirmPasswordError("Confirm Password is required");
-                valid = false;
-            }
-            if (!name.trim()) {
-                setNameError("Name is required");
-                valid = false;
-            }
+        let valid = true;
+        if (!email.trim()) {
+            setEmailError("Email is required");
+            valid = false;
+        valid = false;
+        }
+        if (!confirmPassword.trim()) {
+            setConfirmPasswordError("Confirm Password is required");
+            valid = false;
+        }
+        if (!name.trim()) {
+            setNameError("Name is required");
+            valid = false;
+        }
 
-
-
-        if (!valid) return; // Stop if fields are missing
-
-
-
-            console.log("Submitting form..."); // Debugging: Log message to console
+        if (!valid) return;
 
         setMessage("");
         setEmailError("");
@@ -61,7 +55,6 @@ const SignUp = () => {
             return;
         }
 
-
         const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
         if (!emailPattern.test(email)) {
             setEmailError("Invalid email format");
@@ -69,7 +62,6 @@ const SignUp = () => {
         }
         try {
             const requestData = { name, email, password, confirmPassword };
-            console.log("Sending Data:", requestData); // ✅ Log sent data
             const response = await fetch("http://localhost/my-app/src/backend/SignUp.php", {
                 method: "POST",
                 headers: {
@@ -78,14 +70,10 @@ const SignUp = () => {
                 body: JSON.stringify(requestData),
             });
     
-            console.log("Fetch Response:", response); // ✅ Log fetch response object
-    
             const text = await response.text();
-            console.log("Raw Response:", text); // ✅ Log raw response before parsing
-    
+
             try {
                 const data = JSON.parse(text);
-                console.log("PHP Response:", data); // ✅ Log parsed JSON
 
                 if (!data.success) {
                     if (data.message.includes("Password")) {
@@ -93,23 +81,23 @@ const SignUp = () => {
                     } else if (data.message.includes("match")) {
                         setConfirmPasswordError(data.message);
                     } else if (data.message.includes("Invalid email format")) {
-                        setEmailError(data.message); // ✅ Handle invalid email format
+                        setEmailError(data.message);
                     } else if (data.message.includes("Email already exists")) {
-                        vaildsetEmailError(data.message); // ✅ Handle duplicate email error
+                        vaildsetEmailError(data.message);
                     } else {
                         setMessage(data.message);
                     }
-
-
                 } else {
-                    setMessage("✅ Your account is now ready! Please log in to continue.");
-                    setTimeout(() => Navigate("/Profile"), 2000); // ✅ Redirect after 2s
-
-
+                    setMessage("✅ Signup successfilly ! ");
+                    
+                    sessionStorage.clear();
+                    sessionStorage.setItem("loggedIn", true);
+                    sessionStorage.setItem("userId", data.userId);
+                     // ✅ Update AppContext
+                        setUserId(data.userId);
+                        setLoggedIn(true);
+                    setTimeout(() => Navigate("/Profile"), 2000);
                 }
-
-
-                
             } catch (error) {
                 console.error("JSON Parse Error:", error);
                 console.error("Server Response:", text);
@@ -121,65 +109,65 @@ const SignUp = () => {
         }
     };
 
-
-
-
-
-
-
     return (
-        <div style={styles.container}>
-            <h2>Sign Up</h2>
-            {message && <p style={styles.message}>{message}</p>}
-
-            <form onSubmit={handleSubmit} style={styles.form}>
-                <div style={styles.inputContainer}>
-                    <input type="text" placeholder="Name" value={name} onChange={(e) => setName(e.target.value)} style={styles.input} />
-                    {NameError && <p style={styles.error}>{NameError}</p>}
-
+        <div style={styles.pageContainer}>
+            <div style={styles.container}>
+                <div style={styles.imageContainer}>
+                    <img src="99.png" alt="Sign Up" style={styles.image} />
                 </div>
+                <div style={styles.formContainer}>
+                    <h2 style={styles.title}>Sign Up</h2>
+                    {message && <p style={styles.message}>{message}</p>}
 
-                <div style={styles.inputContainer}>
-                    <input type="text" placeholder="Email" value={email} onChange={(e) => setEmail(e.target.value)} style={styles.input} />
-                    {emailError && <p style={styles.error}>{emailError}</p>}
-                    {validemailError && <p style={styles.error}>{validemailError}</p>}
+                    <form onSubmit={handleSubmit} style={styles.form}>
+                        <div style={styles.inputContainer}>
+                            <input type="text" placeholder="Name" value={name} onChange={(e) => setName(e.target.value)} style={styles.input} />
+                            {NameError && <p style={styles.error}>{NameError}</p>}
+                        </div>
 
-                    </div>
+                        <div style={styles.inputContainer}>
+                            <input type="text" placeholder="Email" value={email} onChange={(e) => setEmail(e.target.value)} style={styles.input} />
+                            {emailError && <p style={styles.error}>{emailError}</p>}
+                            {validemailError && <p style={styles.error}>{validemailError}</p>}
+                        </div>
 
+                        <div style={styles.inputContainer}>
+                            <input type="password" placeholder="Password" value={password} onChange={(e) => setPassword(e.target.value)} style={styles.input} />
+                            <p style={styles.instruction}>Password must be 8-15 characters long, include uppercase, lowercase, a number, and a special character (@.#$!%*?&).</p>
+                            {passwordError && <p style={styles.error}>{passwordError}</p>}
+                        </div>
 
-                <div style={styles.inputContainer}>
-                    <input type="password" placeholder="Password" value={password} onChange={(e) => setPassword(e.target.value)} style={styles.input} />
-                    <p style={{ color: passwordError ? "red" : "grey" }}>Password must be 8-15 characters long, include uppercase, lowercase, a number, and a special character (@.#$!%*?&).</p>
-                    {passwordError && <p style={styles.error}>{passwordError}</p>}
-
+                        <div style={styles.inputContainer}>
+                            <input type="password" placeholder="Confirm Password" value={confirmPassword} onChange={(e) => setConfirmPassword(e.target.value)} style={styles.input} />
+                            {confirmPasswordError && <p style={styles.error}>{confirmPasswordError}</p>}
+                        </div>
+                        <button type="submit" style={styles.button}>Sign Up</button>
+                    </form>
                 </div>
-
-
-
-
-
-                
-                <div style={styles.inputContainer}>
-                    <input type="password" placeholder="Confirm Password" value={confirmPassword} onChange={(e) => setConfirmPassword(e.target.value)} style={styles.input} />
-                    {confirmPasswordError && <p style={styles.error}>{confirmPasswordError}</p>}
-
-                </div>
-                <button type="submit" style={styles.button}>Sign Up</button>
-            </form>
+            </div>
         </div>
     );
 };
 
 const styles = {
-    container: { textAlign: "center", padding: "20px" },
-    form: { display: "flex", flexDirection: "column", gap: "10px", maxWidth: "300px", margin: "auto" },
+    pageContainer: { backgroundColor: "WHITE", minHeight: "100vh", display: "flex", justifyContent: "center", alignItems: "center" },
+    container: { display: "flex", justifyContent: "center", alignItems: "center", padding: "40px", maxWidth: "700px", margin: "auto", border: "1px solid #ccc", borderRadius: "40px", boxShadow: "0 0 10px #ccc" },
+    imageContainer: { flex: "1", marginRight: "20px" },
+    image: { width: "100%", borderRadius: "10px" },
+    formContainer: { flex: "1", textAlign: "center" },
+    title: { color: "darkorange" },
+    form: { display: "flex", flexDirection: "column", gap: "10px", padding: "10px" },
     inputContainer: { textAlign: "left" },
-    input: { width: "100%", padding: "10px", borderRadius: "5px", border: "1px solid #ccc" },
-    button: { padding: "10px", backgroundColor: "blue", color: "white", borderRadius: "5px", cursor: "pointer" },
+    input: { width: "100%", padding: "5px", borderRadius: "19px", border: "1px solid #ccc" },
+    button: { padding: "10px", backgroundColor: "darkorange", color: "white", borderRadius: "5px", cursor: "pointer", border: "none" },
     error: { color: "red", fontSize: "12px", marginTop: "5px" },
-    message: { color: "green", fontSize: "14px" },
-    instruction: { fontSize: "12px", color: "gray", marginTop: "5px" }
+    message: { color: "green", fontSize: "13px" },
+    instruction: { fontSize: "10px", color: "gray", marginTop: "5px" }
+    
 };
 
 export default SignUp;
+
+
+
  
