@@ -18,50 +18,48 @@ const SignUp = () => {
 
 
     const handleSubmit = async (e) => {
-
         e.preventDefault();
-            sessionStorage.clear();
-
-        let valid = true;
-        if (!email.trim()) {
-            setEmailError("Email is required");
-            valid = false;
-        valid = false;
-        }
-        if (!confirmPassword.trim()) {
-            setConfirmPasswordError("Confirm Password is required");
-            valid = false;
-        }
-        if (!name.trim()) {
-            setNameError("Name is required");
-            valid = false;
-        }
-
-        if (!valid) return;
-
+        sessionStorage.clear();
+    
         setMessage("");
         setEmailError("");
         setPasswordError("");
         setConfirmPasswordError("");
         vaildsetEmailError("");
-
+    
+        let valid = true;
+    
+        if (!email.trim()) {
+            setEmailError("Email is required");
+            valid = false;
+        }
+        if (!confirmPassword.trim()) {
+            setConfirmPasswordError("Confirm Password is required");
+            valid = false;
+        }
+        if (!valid) return;
+    
         if (password !== confirmPassword) {
             setConfirmPasswordError("Passwords do not match");
             return;
         }
-
+    
         if (!/^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@.#$!%*?&])[A-Za-z\d@.#$!%*?&]{8,15}$/.test(password)) {
-            setPasswordError(" ");
+            setPasswordError("Password must be 8-15 characters long, include uppercase, lowercase, a number, and a special character.");
             return;
         }
-
+    
         const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
         if (!emailPattern.test(email)) {
             setEmailError("Invalid email format");
             return;
         }
+    
+        // ✅ Log request data before sending
+        console.log("Sending request with data:", { email, password, confirmPassword });
+    
         try {
-            const requestData = { name, email, password, confirmPassword };
+            const requestData = { email, password, confirmPassword };
             const response = await fetch("http://localhost/my-app/src/backend/SignUp.php", {
                 method: "POST",
                 headers: {
@@ -71,10 +69,14 @@ const SignUp = () => {
             });
     
             const text = await response.text();
-
+    
+            // ✅ Log response text to check if server is responding
+            console.log("Server Response Text:", text);
+    
             try {
                 const data = JSON.parse(text);
-
+                console.log("Parsed JSON Response:", data);
+    
                 if (!data.success) {
                     if (data.message.includes("Password")) {
                         setPasswordError(data.message);
@@ -88,14 +90,15 @@ const SignUp = () => {
                         setMessage(data.message);
                     }
                 } else {
-                    setMessage("✅ Signup successfilly ! ");
-                    
+                    setMessage("✅ Signup successfully!");
+    
                     sessionStorage.clear();
                     sessionStorage.setItem("loggedIn", true);
                     sessionStorage.setItem("userId", data.userId);
-                     // ✅ Update AppContext
-                        setUserId(data.userId);
-                        setLoggedIn(true);
+    
+                    setUserId(data.userId);
+                    setLoggedIn(true);
+    
                     setTimeout(() => Navigate("/Profile"), 2000);
                 }
             } catch (error) {
@@ -108,7 +111,7 @@ const SignUp = () => {
             setMessage("Network error: Could not connect to server.");
         }
     };
-
+    
     return (
         <div style={styles.pageContainer}>
             <div style={styles.container}>

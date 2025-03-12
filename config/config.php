@@ -1,11 +1,10 @@
 <?php
+
 // Set headers
 header('Content-Type: application/json; charset=UTF-8'); // Set content type to JSON and character set to UTF-8
 header('Access-Control-Allow-Origin: *'); // Allow any domain to access this API
 header('Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS'); // Allow specific HTTP methods
 header('Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept, Authorization'); // Allow certain headers
-header('Access-Control-Allow-Origin: http://localhost:3000'); // Adjust this if your frontend URL is different
-header('Access-Control-Allow-Credentials: true'); // If you are dealing with cookies
 
 // Set internal character encoding to UTF-8
 mb_internal_encoding("UTF-8");
@@ -22,7 +21,23 @@ date_default_timezone_set('UTC');
 error_reporting(E_ALL); // Report all errors and warnings
 ini_set('display_errors', '1'); // Display errors in output (set to '0' in production)
 
+// Load environment variables from .env file
+require_once __DIR__ . '/../vendor/autoload.php';
+// Ensure Composer is installed and used
+use Dotenv\Dotenv;
+
+$dotenv = Dotenv::createImmutable(__DIR__);
+$dotenv->load();
+
+// OpenAI API Key (Loaded securely from .env file)
+$openai_api_key = $_ENV['OPENAI_API_KEY'] ?? null;
+
+if (!$openai_api_key) {
+    die(json_encode(["error" => "OpenAI API key is missing. Please set it in .env"]));
+}
+
 // Include database configuration if needed
 // require_once 'db.php'; // Uncomment if you have a separate db.php for database connections
 
 // Any other global initialization can go here
+?>

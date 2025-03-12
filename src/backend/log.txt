@@ -226,3 +226,15 @@ Selected Goal IDs: Array
 
 User 123: Found 0 record(s).
 Inserted record: user_id = 123, fitness_goal_id = MUSCLE_GAIN
+Raw data: 
+No raw data received.
+Raw data: {"requestData":{"selectedGoalIds":["ENDURANCE"],"userId":124}}
+Decoded Data:
+User ID: 124
+Selected Goal IDs: Array
+(
+    [0] => ENDURANCE
+)
+
+User 124: Found 0 record(s).
+Inserted record: user_id = 124, fitness_goal_id = ENDURANCE

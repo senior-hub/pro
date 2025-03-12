@@ -52,13 +52,17 @@ const Sidebar = () => {
                     <MenuItem to="/Home/ShowFavorite"  icon="fa-solid fa-heart" label="Favorites" isOpen={isOpen} clickedItem={clickedItem} setClickedItem={setClickedItem} />
                     <MenuItem to="/Home/FitnessPrograms" icon="fas fa-dumbbell"  label="Workout Plan" isOpen={isOpen} clickedItem={clickedItem} setClickedItem={setClickedItem} />
                     <MenuItem to="/nutrition" icon="fas fa-apple-alt" label="Nutrition Plan" isOpen={isOpen} clickedItem={clickedItem} setClickedItem={setClickedItem} />
-                    <MenuItem to="/fitness" icon="fas fa-heartbeat" label="AI Fitness" isOpen={isOpen} clickedItem={clickedItem} setClickedItem={setClickedItem} />
+                    
+                    {/* ✅ Link AI Fitness to ChatBot.js */}
+                    <MenuItem to="/Home/ChatBot" icon="fas fa-robot" label="AI Fitness" isOpen={isOpen} clickedItem={clickedItem} setClickedItem={setClickedItem} />
+                    
                     <MenuItem to="/profile" icon="fas fa-user" label="Profile" isOpen={isOpen} clickedItem={clickedItem} setClickedItem={setClickedItem} />
                 </ul>
             </nav>
         </aside>
     );
 };
+
 
 const MenuItem = ({ to, icon, label, isOpen, clickedItem, setClickedItem }) => {
     const handleClick = () => {
