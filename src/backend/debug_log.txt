@@ -3491,3 +3491,262 @@ Debug Log: Debug Log: Array
     [id] => 3_4_Sit-Up
     [action] => add
 )
+Received Raw Data: EMPTY
+Decoded Data: 
+Error: Missing email or password
+Received Raw Data: {"email":"test@gmail.com","password":".12345678Aa"}
+Decoded Data: Array
+(
+    [email] => test@gmail.com
+    [password] => .12345678Aa
+)
+
+Sanitized Email: test@gmail.com
+User found: Array
+(
+    [user_id] => 113
+    [email] => test@gmail.com
+    [password_hash] => $2y$10$gMluRbi6yP1FITQmWMHJK.nT7X0qtNQk4GrCIPIXUVbylK3GCqWXu
+    [role] => user
+)
+
+Error: Password mismatch
+Received Raw Data: {"email":"test@gmail.com","password":".12345678Aa"}
+Decoded Data: Array
+(
+    [email] => test@gmail.com
+    [password] => .12345678Aa
+)
+
+Sanitized Email: test@gmail.com
+User found: Array
+(
+    [user_id] => 113
+    [email] => test@gmail.com
+    [password_hash] => $2y$10$gMluRbi6yP1FITQmWMHJK.nT7X0qtNQk4GrCIPIXUVbylK3GCqWXu
+    [role] => user
+)
+
+Error: Password mismatch
+Received Raw Data: EMPTY
+Decoded Data: 
+Error: Missing email or password
+Received Raw Data: {"email":"test@gmail.com","password":".12345678Aa"}
+Decoded Data: Array
+(
+    [email] => test@gmail.com
+    [password] => .12345678Aa
+)
+
+Sanitized Email: test@gmail.com
+User found: Array
+(
+    [user_id] => 113
+    [email] => test@gmail.com
+    [password_hash] => $2y$10$gMluRbi6yP1FITQmWMHJK.nT7X0qtNQk4GrCIPIXUVbylK3GCqWXu
+    [role] => user
+)
+
+Error: Password mismatch
+Received Raw Data: EMPTY
+Decoded Data: 
+Error: Missing email or password
+Received Raw Data: {"email":"test@gmail.com","password":"12345678Aa."}
+Decoded Data: Array
+(
+    [email] => test@gmail.com
+    [password] => 12345678Aa.
+)
+
+Sanitized Email: test@gmail.com
+User found: Array
+(
+    [user_id] => 113
+    [email] => test@gmail.com
+    [password_hash] => $2y$10$gMluRbi6yP1FITQmWMHJK.nT7X0qtNQk4GrCIPIXUVbylK3GCqWXu
+    [role] => user
+)
+
+Password verified
+Login successful for user ID: 113
+Response Sent: {"success":true,"role":"user","userId":113,"message":"Login successful"}
+Received Raw Data: EMPTY
+Decoded Data: 
+Error: Missing email or password
+Received Raw Data: {"email":"test@gmail.com","password":".12345678Aa."}
+Decoded Data: Array
+(
+    [email] => test@gmail.com
+    [password] => .12345678Aa.
+)
+
+Sanitized Email: test@gmail.com
+User found: Array
+(
+    [user_id] => 113
+    [email] => test@gmail.com
+    [password_hash] => $2y$10$gMluRbi6yP1FITQmWMHJK.nT7X0qtNQk4GrCIPIXUVbylK3GCqWXu
+    [role] => user
+)
+
+Error: Password mismatch
+Received Raw Data: {"email":"test@gmail.com","password":"12345678Aa."}
+Decoded Data: Array
+(
+    [email] => test@gmail.com
+    [password] => 12345678Aa.
+)
+
+Sanitized Email: test@gmail.com
+User found: Array
+(
+    [user_id] => 113
+    [email] => test@gmail.com
+    [password_hash] => $2y$10$gMluRbi6yP1FITQmWMHJK.nT7X0qtNQk4GrCIPIXUVbylK3GCqWXu
+    [role] => user
+)
+
+Password verified
+Login successful for user ID: 113
+Response Sent: {"success":true,"role":"user","userId":113,"message":"Login successful"}
+Received Raw Data: EMPTY
+Received Raw Data: EMPTY
+Decoded Data: 
+Decoded Data: 
+Received Raw Data: {"program_name":"Expert Power & Strength Program"}
+Decoded Data: Array
+(
+    [program_name] => Expert Power & Strength Program
+)
+
+Decoded Data: Array
+(
+    [program_name] => Expert Power & Strength Program
+)
+
+Received Raw Data: EMPTY
+Decoded Data: 
+Error: Missing email or password
+Received Raw Data: {"email":"test@gmail.com","password":".12345678Aa."}
+Decoded Data: Array
+(
+    [email] => test@gmail.com
+    [password] => .12345678Aa.
+)
+
+Sanitized Email: test@gmail.com
+User found: Array
+(
+    [user_id] => 113
+    [email] => test@gmail.com
+    [password_hash] => $2y$10$gMluRbi6yP1FITQmWMHJK.nT7X0qtNQk4GrCIPIXUVbylK3GCqWXu
+    [role] => user
+)
+
+Error: Password mismatch
+Received Raw Data: {"email":"test@gmail.com","password":"12345678Aa."}
+Decoded Data: Array
+(
+    [email] => test@gmail.com
+    [password] => 12345678Aa.
+)
+
+Sanitized Email: test@gmail.com
+User found: Array
+(
+    [user_id] => 113
+    [email] => test@gmail.com
+    [password_hash] => $2y$10$gMluRbi6yP1FITQmWMHJK.nT7X0qtNQk4GrCIPIXUVbylK3GCqWXu
+    [role] => user
+)
+
+Password verified
+Login successful for user ID: 113
+Response Sent: {"success":true,"role":"user","userId":113,"message":"Login successful"}
+Received Data: 
+Received Data: Array
+(
+    [dateOfBirth] => 2025-03-11
+    [gender] => female
+    [weight] => 0
+    [height] => 0
+    [activityLevel] => low
+    [userId] => 124
+)
+
+Received Data: 
+Received Data: Array
+(
+    [dateOfBirth] => 2025-03-08
+    [gender] => male
+    [weight] => 0
+    [height] => 0
+    [activityLevel] => low
+    [userId] => 124
+)
+
+Received Data: Array
+(
+    [dateOfBirth] => 
+    [gender] => 
+    [weight] => 0
+    [height] => 0
+    [activityLevel] => 
+    [userId] => 124
+)
+
+Received Data: 
+Received Data: Array
+(
+    [dateOfBirth] => 
+    [gender] => 
+    [weight] => 0
+    [height] => 0
+    [activityLevel] => 
+    [userId] => 124
+)
+
+Received Data: 
+Received Data: Array
+(
+    [dateOfBirth] => 2025-03-12
+    [gender] => male
+    [weight] => 0
+    [height] => 0
+    [activityLevel] => low
+    [userId] => 124
+)
+
+Received Data: 
+Received Data: Array
+(
+    [dateOfBirth] => 
+    [gender] => 
+    [weight] => 0
+    [height] => 0
+    [activityLevel] => 
+    [userId] => 124
+)
+
+Received Raw Data: EMPTY
+Decoded Data: 
+Error: Missing email or password
+Received Raw Data: {"email":"test@gmail.com","password":"12345678Aa."}
+Decoded Data: Array
+(
+    [email] => test@gmail.com
+    [password] => 12345678Aa.
+)
+
+Sanitized Email: test@gmail.com
+User found: Array
+(
+    [user_id] => 113
+    [email] => test@gmail.com
+    [password_hash] => $2y$10$gMluRbi6yP1FITQmWMHJK.nT7X0qtNQk4GrCIPIXUVbylK3GCqWXu
+    [role] => user
+)
+
+Password verified
+Login successful for user ID: 113
+Response Sent: {"success":true,"role":"user","userId":113,"message":"Login successful"}

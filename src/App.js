@@ -14,6 +14,7 @@ import FitnessPrograms from "./components/FitnessPrograms";
 import ProgramDetails from "./components/ProgramDetails";
 import ShowFavorite from "./components/ShowFavorite";
 import ExerciseFilter from "./components/ExerciseFilter";
+import ChatBot from "./components/ChatBot"; // Import ChatBot
 
 function App() {
   return (
@@ -31,12 +32,15 @@ function App() {
           <Route path="/Home" element={<Home />} />
           <Route path="/Login" element={<Login />} />
           <Route path="/Profile" element={<Profile />} />
-          <Route path="/Dashboard" element={<Dashboard />} />
+          <Route path="/Dashboard" element={<>
+            <Dashboard />
+            <ChatBot /> {/* Chatbot added to Dashboard */}
+          </>} />
           <Route path="/Home/ExerciseFilter/ExerciseDetails" element={<ExerciseDetails />} />
           <Route path="/Home/FitnessPrograms" element={<FitnessPrograms />} />
           <Route path="/Home/FitnessPrograms/ProgramDetails" element={<ProgramDetails />} />
 
-          
+          <Route path="/Home/ChatBot" element={<ChatBot />} />
     
 
         </Routes>

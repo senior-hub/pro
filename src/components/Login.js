@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { useNavigate } from "react-router-dom"; // For redirection
 import { Link } from 'react-router-dom';
 import { useApp } from "../context/AppContext";
+import Cookies from "js-cookie"; // Import Cookies
 
 const Login = () => {
     const { setUserId, setLoggedIn } = useApp();
@@ -13,20 +14,17 @@ const Login = () => {
     const [message, setMessage] = useState("");
     const navigate = useNavigate(); // Hook to handle redirection
 
+
+
     const handleLogin = async (e) => {
         e.preventDefault();
-
-           // Clear old session data
-           sessionStorage.clear();
-
+        sessionStorage.clear();  // ✅ Clear any old session
+    
         let valid = true;
-
-        // Reset error messages
         setEmailError("");
         setPasswordError("");
         setMessage("");
-
-        // Validation checks
+    
         if (!email.trim()) {
             setEmailError("Email is required");
             valid = false;
@@ -35,53 +33,39 @@ const Login = () => {
             setPasswordError("Password is required");
             valid = false;
         }
-
-        if (!valid) return; // Stop if fields are missing
-
-        console.log("🔍 Fetching login data...");
+        if (!valid) return;
+    
         try {
             const response = await fetch("http://localhost/my-app/src/backend/Login.php", {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
+                credentials: "include", // ✅ Important: This ensures cookies are sent
                 body: JSON.stringify({ email, password })
             });
-            console.log("🔍 Login Fetch Response:", response);
-
-            const text = await response.text();
-            console.log("🔍 Raw Response:", text);
-
-            if (!text.trim()) {
-                console.error("❌ Server returned an empty response.");
-                setMessage("Server error: No response received.");
-                return;
-            }
-
-            const data = JSON.parse(text);
+    
+            const data = await response.json();
             console.log("✅ Parsed Login Response:", data);
-
+    
             if (data.success) {
                 setMessage("Login successfully!");
-
-                sessionStorage.setItem("loggedIn", true);
-                sessionStorage.setItem("userId", data.userId);
-                 // ✅ Update AppContext
-                 setUserId(data.userId);
-                 setLoggedIn(true);
-
-                // Redirect based on role
-                if (data.role === "admin") {
-                    navigate("/AdminHome");
-                } else {
-                    navigate("/Home");
-                }
+    
+                // ✅ Store session in cookies
+                Cookies.set("userId", data.userId, { expires: 1 }); // 1-day expiry
+                Cookies.set("loggedIn", true, { expires: 1 });
+    
+                setUserId(data.userId);
+                setLoggedIn(true);
+    
+                navigate(data.role === "admin" ? "/AdminHome" : "/Home");
             } else {
                 setMessage(data.message);
             }
         } catch (error) {
-            console.error("❌ Fetch or JSON Parse Error:", error);
+            console.error("❌ Fetch Error:", error);
             setMessage("Error processing server response.");
         }
     };
+    
 
     return (
         <div style={styles.pageContainer}>

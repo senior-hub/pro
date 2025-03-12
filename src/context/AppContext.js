@@ -1,6 +1,7 @@
 // 📁 src/context/AppContext.js
 import React, { createContext, useContext, useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 
 // Create Context
 const AppContext = createContext();
@@ -25,19 +26,13 @@ export const AppProvider = ({ children }) => {
     }
   }, [loggedIn, userId]);
 
-
-  
-  // 🔄 Auto-Redirect if Not Logged In
+  const location = useLocation();
   useEffect(() => {
-    if (!loggedIn) {
-      // Prevent double execution in React 18 Strict Mode
-      const timer = setTimeout(() => {
-        navigate("/login");
-      }, 0);
-      return () => clearTimeout(timer);
+    if (!loggedIn && location.pathname.toLowerCase() !== "/signup") {
+      navigate("/login");
     }
-  }, [loggedIn, navigate]);
-
+  }, [loggedIn, navigate, location.pathname]);
+  
 
   // ✅ Sync sessionStorage when loggedIn or userId changes
   useEffect(() => {
