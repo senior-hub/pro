@@ -5,6 +5,14 @@ session_start();
 
 include '../../config/db.php';   //  database connection
 include '../../config/config.php';
+header("Access-Control-Allow-Origin: http://localhost:3000");
+header("Access-Control-Allow-Credentials: true");
+header("Access-Control-Allow-Headers: Content-Type");
+header("Content-Type: application/json");
+
+if (session_status() === PHP_SESSION_NONE) {
+    session_start();
+}
 
 
 try {

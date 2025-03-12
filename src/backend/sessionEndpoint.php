@@ -2,12 +2,15 @@
 // File: check_session.php
 
 
-header("Access-Control-Allow-Origin: http://localhost:3000"); // Allow only requests from this origin
-header("Access-Control-Allow-Credentials: true"); // Allows cookies and sessions to be included
-header("Access-Control-Allow-Methods: GET, POST, OPTIONS"); // Specifies methods allowed when accessing the resource
-header("Content-Type: application/json"); // Optional: Specify the format of data in the response
+header("Access-Control-Allow-Origin: http://localhost:3000");
+header("Access-Control-Allow-Credentials: true");
+header("Access-Control-Allow-Headers: Content-Type");
+header("Content-Type: application/json");
 
-session_start();
+if (session_status() === PHP_SESSION_NONE) {
+    session_start();
+}
+
 header('Content-Type: application/json');
 
 $response = [
