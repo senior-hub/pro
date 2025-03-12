@@ -1,16 +1,18 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import Welcome from "./components/Welcome";
 import Home from "./components/Home";
 import SignUp from "./components/SignUp";
-import Login from "./components/Login";   
+import Login from "./components/Login";
 import AdminHome from "./components/AdminHome";
 import Profile from "./components/profile";
 import SetGoal from "./components/SetGoal";
 import Dashboard from "./components/Dashboard";
 import ExerciseSearch from "./components/ExerciseSearch";
 import ExerciseDetail from "./components/ExerciseDetail";
+import ChatBot from "./components/ChatBot"; // Import ChatBot
+
 function App() {
   return (
     <Router>
@@ -24,11 +26,11 @@ function App() {
           <Route path="/Home" element={<Home />} />
           <Route path="/Login" element={<Login />} />
           <Route path="/Profile" element={<Profile />} />
-          <Route path="/Dashboard" element={<Dashboard />} />
+          <Route path="/Dashboard" element={<>
+            <Dashboard />
+            <ChatBot /> {/* Chatbot added to Dashboard */}
+          </>} />
           <Route path="/Home/ExerciseSearch/ExerciseDetail" element={<ExerciseDetail />} />
-
-    
-
         </Routes>
       </div>
     </Router>
@@ -36,4 +38,3 @@ function App() {
 }
 
 export default App;
- 

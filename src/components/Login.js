@@ -34,11 +34,13 @@ const Login = () => {
 
         console.log("🔍 Fetching login data...");
         try {
-            const response = await fetch("http://localhost/my-app/src/backend/Login.php", {
+            const response = await fetch("http://localhost:8080/Login.php", {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
-                body: JSON.stringify({ email, password })
+                body: JSON.stringify({ email, password }),
+                credentials: "include"   // ✅ This makes sure PHPSESSID cookie gets set in the browser
             });
+            
             console.log("🔍 Login Fetch Response:", response);
 
             const text = await response.text();

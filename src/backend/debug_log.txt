@@ -1,0 +1,56 @@
+Received Raw Data: EMPTY
+Decoded Data: 
+Error: Missing email or password
+Received Raw Data: {"email":"xsz","password":"xs"}
+Decoded Data: Array
+(
+    [email] => xsz
+    [password] => xs
+)
+
+Sanitized Email: xsz
+Error: User not found
+Received Raw Data: EMPTY
+Decoded Data: 
+Error: Missing email or password
+Received Raw Data: {"email":"Testing1@gmail.com","password":"Testing@123"}
+Decoded Data: Array
+(
+    [email] => Testing1@gmail.com
+    [password] => Testing@123
+)
+
+Sanitized Email: Testing1@gmail.com
+User found: Array
+(
+    [user_id] => 117
+    [email] => testing1@gmail.com
+    [password_hash] => $2y$10$deayLAtFJBYnbCHt/KrdQuGB.KHRPpcBADpZNXqVOIFmzbrCDEAP2
+    [role] => user
+)
+
+Password verified
+Login successful for user ID: 117
+Response Sent: {"success":true,"role":"user","userId":117,"message":"Login successful"}
+Received Raw Data: EMPTY
+Decoded Data: 
+Error: Missing email or password
+Received Raw Data: {"email":"Testing1@gmail.com","password":"Testing@123"}
+Decoded Data: Array
+(
+    [email] => Testing1@gmail.com
+    [password] => Testing@123
+)
+
+Sanitized Email: Testing1@gmail.com
+User found: Array
+(
+    [user_id] => 117
+    [email] => testing1@gmail.com
+    [password_hash] => $2y$10$deayLAtFJBYnbCHt/KrdQuGB.KHRPpcBADpZNXqVOIFmzbrCDEAP2
+    [role] => user
+)
+
+Password verified
+Login successful for user ID: 117
+Response Sent: {"success":true,"role":"user","userId":117,"message":"Login successful"}
