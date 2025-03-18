@@ -1,5 +1,16 @@
 <?php
 
+// Ensure required extensions are loaded
+if (!extension_loaded('json')) {
+    die('JSON extension is not loaded.');
+}
+if (!extension_loaded('mysqli')) {
+    die('MySQLi extension is not loaded.');
+}
+if (!extension_loaded('openssl')) {
+    die('OpenSSL extension is not loaded.');
+}
+
 header("Access-Control-Allow-Origin: *");
 header("Access-Control-Allow-Methods: POST");
 header("Access-Control-Allow-Headers: Content-Type");
@@ -51,22 +62,56 @@ $test_role = "user"; // Default role
 
 $insert_query->bind_param("sssss", $email, $password_hash, $name, $test_role, $created_at);
 if ($insert_query->execute()) {
-    $response = ["success" => true, "message" => "User inserted successfully"];
-    echo json_encode($response);
-    file_put_contents("debug_response.json", json_encode($response)); // Save JSON to file
 
+    // Prepare to fetch the user details after insertion
+    $stmt = $db->prepare("SELECT user_id, email, password_hash, `role` FROM auth WHERE email = ?");
+
+    if ($stmt) {
+        $stmt->bind_param("s", $email);
+        $stmt->execute();
+        $result = $stmt->get_result();
+        $user = $result->fetch_assoc();
+        $stmt->close();
+
+        if ($user) {
+            $_SESSION['user_id'] = $user['user_id'];
+            $_SESSION['role'] = $user['role'];
+            $_SESSION['loggedin'] = true;
+
+            $response = [
+                "success" => true,
+                "message" => "User inserted and login successful",
+                "role" => $user['role'],
+                "userId" => $user['user_id']
+            ];
+        } else {
+            $_SESSION['loggedin'] = false;
+            $response = [
+                "success" => false,
+                "message" => "User inserted but retrieval failed"
+            ];
+        }
+    } else {
+        $response = [
+            "success" => false,
+            "message" => "Database query preparation failed"
+        ];
+    }
 } else {
-    $response = ["success" => false, "message" => "Insertion failed: " . $insert_query->error];
-    echo json_encode($response);
-    file_put_contents("debug_response.json", json_encode($response)); // Save JSON to file
-
+    $response = [
+        "success" => false,
+        "message" => "User insertion failed"
+    ];
 }
+
+// Save the response to a debug file
+file_put_contents("debug_response.json", json_encode($response));
+
+// Send the final JSON response
+echo json_encode($response);
+
+
 
 
 $insert_query->close();
 $db->close();
-
-
-?>
-
-
