@@ -1,0 +1,169 @@
+/* Pagination.css - Separate CSS file for pagination styles */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* Results header with per-page selector */
+.results-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.per-page-selector {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.per-page-selector select {
+  padding: 6px 10px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  background-color: white;
+  font-family: inherit;
+  cursor: pointer;
+  transition: border-color 0.3s;
+}
+
+.per-page-selector select:focus {
+  outline: none;
+  border-color: #f47f6a;
+}
+
+/* Pagination container */
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+/* Pagination buttons */
+.pagination-button {
+  min-width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  color: #555;
+  border: 1px solid #ddd;
+  cursor: pointer;
+  transition: all 0.3s;
+  font-size: 0.95rem;
+  font-family: inherit;
+}
+
+.pagination-button:hover:not(.disabled):not(.active) {
+  background-color: #f2e4e0;
+  border-color: #f6b89e;
+  transform: translateY(-2px);
+}
+
+.pagination-button.active {
+  background: #ff534a;
+  color: white;
+  border-color: #ff534a;
+  box-shadow: 0 2px 5px rgba(244, 127, 106, 0.3);
+}
+
+.pagination-button.disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.pagination-ellipsis {
+  min-width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #777;
+  user-select: none;
+}
+
+/* Mobile-friendly page indicator */
+.page-indicator {
+  text-align: center;
+  color: #666;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-size: 0.9rem;
+  display: none;
+}
+
+/* Loading container for exercises */
+.loading-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 0;
+  color: #666;
+}
+
+.loading-spinner {
+  width: 40px;
+  height: 40px;
+  border: 4px solid rgba(244, 127, 106, 0.1);
+  border-radius: 50%;
+  border-top: 4px solid #ff534a;
+  animation: spin 1s linear infinite;
+  margin-bottom: 15px;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Enhanced empty state */
+.empty-state {
+  text-align: center;
+  padding: 60px 20px;
+  color: #777;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  font-size: 1.1rem;
+}
+
+.empty-state i {
+  font-size: 2.5rem;
+  color: #ccc;
+  margin-bottom: 15px;
+  display: block;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .results-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .pagination-button {
+    min-width: 36px;
+    height: 36px;
+    font-size: 0.9rem;
+  }
+  
+  /* Hide numbered pagination on mobile and show page indicator instead */
+  .pagination .pagination-button:not(:first-child):not(:last-child) {
+    display: none;
+  }
+  
+  .pagination-ellipsis {
+    display: none;
+  }
+  
+  .page-indicator {
+    display: block;
+  }
+}

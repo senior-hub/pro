@@ -1,0 +1,49 @@
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 300px;
+  margin: auto;
+}
+
+.input-container {
+  text-align: left;
+}
+
+.input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.button {
+  padding: 10px;
+  background-color: blue;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.message {
+  color: green;
+  font-size: 14px;
+}
+
+.instruction {
+  font-size: 12px;
+  color: gray;
+  margin-top: 5px;
+}

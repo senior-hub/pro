@@ -1,0 +1,4 @@
+Checking goal: endurance, found ID: ENDURANCE
+Checking goal: muscle gain, found ID: MUSCLE_GAIN
+Checking goal: weight loss, found ID: WEIGHT_LOSS
+Checking goal: endurance, found ID: ENDURANCE

@@ -1,0 +1,319 @@
+Raw data: 
+No raw data received.
+Raw data: {"requestData":{"selectedGoalIds":["general_fitness","FLEXIBILITY"],"userId":"107"}}
+Decoded Data:
+User ID: 107
+Selected Goal IDs: Array
+(
+    [0] => general_fitness
+    [1] => FLEXIBILITY
+)
+
+User 107: Found 1 record(s).
+User 107: Deleted 1 record(s).
+Inserted record: user_id = 107, fitness_goal_id = general_fitness
+Inserted record: user_id = 107, fitness_goal_id = FLEXIBILITY
+Raw data: 
+No raw data received.
+Raw data: {"requestData":{"selectedGoalIds":["STRENGTH"],"userId":"107"}}
+Decoded Data:
+User ID: 107
+Selected Goal IDs: Array
+(
+    [0] => STRENGTH
+)
+
+User 107: Found 2 record(s).
+User 107: Deleted 2 record(s).
+Inserted record: user_id = 107, fitness_goal_id = STRENGTH
+Raw data: 
+No raw data received.
+Raw data: {"requestData":{"selectedGoalIds":["MUSCLE_GAIN"],"userId":"107"}}
+Decoded Data:
+User ID: 107
+Selected Goal IDs: Array
+(
+    [0] => MUSCLE_GAIN
+)
+
+User 107: Found 1 record(s).
+User 107: Deleted 1 record(s).
+Inserted record: user_id = 107, fitness_goal_id = MUSCLE_GAIN
+Raw data: 
+No raw data received.
+Raw data: {"requestData":{"selectedGoalIds":["WEIGHT_LOSS"],"userId":"107"}}
+Decoded Data:
+User ID: 107
+Selected Goal IDs: Array
+(
+    [0] => WEIGHT_LOSS
+)
+
+User 107: Found 1 record(s).
+User 107: Deleted 1 record(s).
+Inserted record: user_id = 107, fitness_goal_id = WEIGHT_LOSS
+Raw data: 
+No raw data received.
+Raw data: {"requestData":{"selectedGoalIds":["general_fitness"],"userId":"107"}}
+Decoded Data:
+User ID: 107
+Selected Goal IDs: Array
+(
+    [0] => general_fitness
+)
+
+User 107: Found 1 record(s).
+User 107: Deleted 1 record(s).
+Inserted record: user_id = 107, fitness_goal_id = general_fitness
+Raw data: 
+No raw data received.
+Raw data: {"requestData":{"selectedGoalIds":["FLEXIBILITY"],"userId":"107"}}
+Decoded Data:
+User ID: 107
+Selected Goal IDs: Array
+(
+    [0] => FLEXIBILITY
+)
+
+User 107: Found 1 record(s).
+User 107: Deleted 1 record(s).
+Inserted record: user_id = 107, fitness_goal_id = FLEXIBILITY
+Raw data: 
+No raw data received.
+Raw data: {"requestData":{"selectedGoalIds":["ENDURANCE"],"userId":"107"}}
+Decoded Data:
+User ID: 107
+Selected Goal IDs: Array
+(
+    [0] => ENDURANCE
+)
+
+User 107: Found 1 record(s).
+User 107: Deleted 1 record(s).
+Inserted record: user_id = 107, fitness_goal_id = ENDURANCE
+Raw data: 
+No raw data received.
+Raw data: {"requestData":{"selectedGoalIds":["FLEXIBILITY","WEIGHT_LOSS"],"userId":"116"}}
+Decoded Data:
+User ID: 116
+Selected Goal IDs: Array
+(
+    [0] => FLEXIBILITY
+    [1] => WEIGHT_LOSS
+)
+
+User 116: Found 0 record(s).
+Inserted record: user_id = 116, fitness_goal_id = FLEXIBILITY
+Inserted record: user_id = 116, fitness_goal_id = WEIGHT_LOSS
+Raw data: 
+No raw data received.
+Raw data: {"requestData":{"selectedGoalIds":["WEIGHT_LOSS","MUSCLE_GAIN"],"userId":"undefined"}}
+Decoded Data:
+User ID: undefined
+Selected Goal IDs: Array
+(
+    [0] => WEIGHT_LOSS
+    [1] => MUSCLE_GAIN
+)
+
+User undefined: Found 0 record(s).
+Raw data: {"requestData":{"selectedGoalIds":["WEIGHT_LOSS","MUSCLE_GAIN"],"userId":"undefined"}}
+Decoded Data:
+User ID: undefined
+Selected Goal IDs: Array
+(
+    [0] => WEIGHT_LOSS
+    [1] => MUSCLE_GAIN
+)
+
+User undefined: Found 0 record(s).
+Raw data: {"requestData":{"selectedGoalIds":["WEIGHT_LOSS","MUSCLE_GAIN"],"userId":"undefined"}}
+Decoded Data:
+User ID: undefined
+Selected Goal IDs: Array
+(
+    [0] => WEIGHT_LOSS
+    [1] => MUSCLE_GAIN
+)
+
+User undefined: Found 0 record(s).
+Raw data: {"requestData":{"selectedGoalIds":["WEIGHT_LOSS","MUSCLE_GAIN"],"userId":"undefined"}}
+Decoded Data:
+User ID: undefined
+Selected Goal IDs: Array
+(
+    [0] => WEIGHT_LOSS
+    [1] => MUSCLE_GAIN
+)
+
+User undefined: Found 0 record(s).
+Raw data: {"requestData":{"selectedGoalIds":["WEIGHT_LOSS","MUSCLE_GAIN"],"userId":"undefined"}}
+Decoded Data:
+User ID: undefined
+Selected Goal IDs: Array
+(
+    [0] => WEIGHT_LOSS
+    [1] => MUSCLE_GAIN
+)
+
+User undefined: Found 0 record(s).
+Raw data: 
+No raw data received.
+Raw data: {"requestData":{"selectedGoalIds":["WEIGHT_LOSS","MUSCLE_GAIN","FLEXIBILITY"],"userId":"undefined"}}
+Decoded Data:
+User ID: undefined
+Selected Goal IDs: Array
+(
+    [0] => WEIGHT_LOSS
+    [1] => MUSCLE_GAIN
+    [2] => FLEXIBILITY
+)
+
+User undefined: Found 0 record(s).
+Raw data: {"requestData":{"selectedGoalIds":["WEIGHT_LOSS","MUSCLE_GAIN","FLEXIBILITY"],"userId":"undefined"}}
+Decoded Data:
+User ID: undefined
+Selected Goal IDs: Array
+(
+    [0] => WEIGHT_LOSS
+    [1] => MUSCLE_GAIN
+    [2] => FLEXIBILITY
+)
+
+User undefined: Found 0 record(s).
+Raw data: {"requestData":{"selectedGoalIds":["MUSCLE_GAIN"],"userId":"undefined"}}
+Decoded Data:
+User ID: undefined
+Selected Goal IDs: Array
+(
+    [0] => MUSCLE_GAIN
+)
+
+User undefined: Found 0 record(s).
+Raw data: 
+No raw data received.
+Raw data: {"requestData":{"selectedGoalIds":["STRENGTH"],"userId":"118"}}
+Decoded Data:
+User ID: 118
+Selected Goal IDs: Array
+(
+    [0] => STRENGTH
+)
+
+User 118: Found 0 record(s).
+Inserted record: user_id = 118, fitness_goal_id = STRENGTH
+Raw data: 
+No raw data received.
+Raw data: {"requestData":{"selectedGoalIds":["MUSCLE_GAIN"],"userId":122}}
+Decoded Data:
+User ID: 122
+Selected Goal IDs: Array
+(
+    [0] => MUSCLE_GAIN
+)
+
+User 122: Found 0 record(s).
+Inserted record: user_id = 122, fitness_goal_id = MUSCLE_GAIN
+Raw data: 
+No raw data received.
+Raw data: {"requestData":{"selectedGoalIds":["MUSCLE_GAIN"],"userId":123}}
+Decoded Data:
+User ID: 123
+Selected Goal IDs: Array
+(
+    [0] => MUSCLE_GAIN
+)
+
+User 123: Found 0 record(s).
+Inserted record: user_id = 123, fitness_goal_id = MUSCLE_GAIN
+Raw data: 
+No raw data received.
+Raw data: {"requestData":{"selectedGoalIds":["ENDURANCE"],"userId":124}}
+Decoded Data:
+User ID: 124
+Selected Goal IDs: Array
+(
+    [0] => ENDURANCE
+)
+
+User 124: Found 0 record(s).
+Inserted record: user_id = 124, fitness_goal_id = ENDURANCE
+Raw data: 
+No raw data received.
+Raw data: {"requestData":{"selectedGoalIds":[],"userId":126}}
+Decoded Data:
+User ID: 126
+Selected Goal IDs: Array
+(
+)
+
+User 126: Found 0 record(s).
+Raw data: 
+No raw data received.
+Raw data: {"requestData":{"selectedGoalIds":[],"userId":127}}
+Decoded Data:
+User ID: 127
+Selected Goal IDs: Array
+(
+)
+
+User 127: Found 0 record(s).
+Raw data: 
+No raw data received.
+Raw data: {"requestData":{"selectedGoalIds":["general_fitness","ENDURANCE","FLEXIBILITY","MUSCLE_GAIN"],"userId":"126"}}
+Decoded Data:
+User ID: 126
+Selected Goal IDs: Array
+(
+    [0] => general_fitness
+    [1] => ENDURANCE
+    [2] => FLEXIBILITY
+    [3] => MUSCLE_GAIN
+)
+
+User 126: Found 1 record(s).
+User 126: Deleted 1 record(s).
+Inserted record: user_id = 126, fitness_goal_id = general_fitness
+Inserted record: user_id = 126, fitness_goal_id = ENDURANCE
+Inserted record: user_id = 126, fitness_goal_id = FLEXIBILITY
+Inserted record: user_id = 126, fitness_goal_id = MUSCLE_GAIN
+Raw data: 
+No raw data received.
+Raw data: {"requestData":{"selectedGoalIds":["general_fitness","ENDURANCE","FLEXIBILITY","MUSCLE_GAIN","STRENGTH"],"userId":"126"}}
+Decoded Data:
+User ID: 126
+Selected Goal IDs: Array
+(
+    [0] => general_fitness
+    [1] => ENDURANCE
+    [2] => FLEXIBILITY
+    [3] => MUSCLE_GAIN
+    [4] => STRENGTH
+)
+
+User 126: Found 4 record(s).
+User 126: Deleted 4 record(s).
+Inserted record: user_id = 126, fitness_goal_id = general_fitness
+Inserted record: user_id = 126, fitness_goal_id = ENDURANCE
+Inserted record: user_id = 126, fitness_goal_id = FLEXIBILITY
+Inserted record: user_id = 126, fitness_goal_id = MUSCLE_GAIN
+Inserted record: user_id = 126, fitness_goal_id = STRENGTH
+Raw data: 
+No raw data received.
+Raw data: {"requestData":{"selectedGoalIds":["ENDURANCE","general_fitness","STRENGTH","WEIGHT_LOSS"],"userId":"126"}}
+Decoded Data:
+User ID: 126
+Selected Goal IDs: Array
+(
+    [0] => ENDURANCE
+    [1] => general_fitness
+    [2] => STRENGTH
+    [3] => WEIGHT_LOSS
+)
+
+User 126: Found 5 record(s).
+User 126: Deleted 5 record(s).
+Inserted record: user_id = 126, fitness_goal_id = ENDURANCE
+Inserted record: user_id = 126, fitness_goal_id = general_fitness
+Inserted record: user_id = 126, fitness_goal_id = STRENGTH
+Inserted record: user_id = 126, fitness_goal_id = WEIGHT_LOSS

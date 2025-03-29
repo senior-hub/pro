@@ -1,0 +1,237 @@
+/* ExerciseDetails.css */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+.details-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 30px;
+  font-family: 'Poppins', sans-serif;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.navigation-button {
+  background-color: #f2e4e0;
+  color: #ff534a;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 25px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+.navigation-button:hover {
+  background-color: #f6b89e;
+  color: white;
+  transform: translateY(-2px);
+}
+
+.navigation-button i {
+  font-size: 0.9rem;
+}
+
+.exercise-title {
+  font-size: 2rem;
+  color: #ff534a;
+  margin-bottom: 25px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.images-container {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+.exercise-image {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.exercise-image:hover {
+  transform: scale(1.05);
+}
+
+.details-section {
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 25px;
+}
+
+.details-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 15px;
+}
+
+.detail-item {
+  margin-bottom: 12px;
+}
+
+.detail-label {
+  color: #666;
+  font-size: 0.9rem;
+  display: block;
+  margin-bottom: 4px;
+}
+
+.detail-value {
+  color: #333;
+  font-weight: 500;
+}
+
+.instructions-section {
+  margin-top: 30px;
+}
+
+.instructions-title {
+  font-size: 1.3rem;
+  color: #ff534a;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.instructions-list {
+  padding-left: 20px;
+}
+
+.instruction-step {
+  margin-bottom: 15px;
+  line-height: 1.6;
+  color: #444;
+}
+
+.instruction-tip {
+  background-color: #f2e4e0;
+  padding: 10px 15px;
+  border-radius: 8px;
+  margin-top: 8px;
+  color: #f47f6a;
+  font-weight: 500;
+  font-size: 0.95rem;
+}
+
+.actions-container {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+
+.favorite-button {
+  padding: 12px 20px;
+  border-radius: 30px;
+  border: none;
+  background: linear-gradient(to right, #f47f6a, #ff534a);
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  box-shadow: 0 4px 10px rgba(244, 127, 106, 0.3);
+}
+
+.favorite-button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 15px rgba(244, 127, 106, 0.4);
+}
+
+.favorite-button:active {
+  transform: translateY(-1px);
+}
+
+.favorites-button {
+  padding: 12px 20px;
+  border-radius: 30px;
+  border: 2px solid #f47f6a;
+  background: transparent;
+  color: #f47f6a;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.favorites-button:hover {
+  background-color: #f2e4e0;
+}
+
+.error-message {
+  text-align: center;
+  color: #666;
+  padding: 40px;
+  font-size: 1.1rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .details-container {
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .exercise-title {
+    font-size: 1.6rem;
+  }
+  
+  .exercise-image {
+    width: 150px;
+    height: 150px;
+  }
+  
+  .details-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  .details-container {
+    padding: 15px;
+  }
+  
+  .exercise-title {
+    font-size: 1.4rem;
+  }
+  
+  .images-container {
+    gap: 10px;
+  }
+  
+  .exercise-image {
+    width: 120px;
+    height: 120px;
+  }
+  
+  .details-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .actions-container {
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .favorite-button, .favorites-button {
+    width: 100%;
+    justify-content: center;
+  }
+}
