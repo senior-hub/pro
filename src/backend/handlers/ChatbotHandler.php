@@ -74,6 +74,30 @@ class ChatbotHandler {
     }
 
     public function chatWithGPT($message) {
+<<<<<<< HEAD
+=======
+        // Load dataset from your actual folder location (src/datasets)
+        $datasetPath = __DIR__ . '/../../datasets/fitness_knowledge.txt';
+
+        if (!file_exists($datasetPath)) {
+            $this->respond("❌ Dataset file missing at: $datasetPath");
+            return;
+        }
+
+        $dataset = file_get_contents($datasetPath);
+
+        $prompt = "
+You are a fitness assistant that can only respond based on the dataset below.
+If the answer to the user's question is not in the dataset, respond with: 'I don't know based on the provided data.'
+
+=== DATASET START ===
+$dataset
+=== DATASET END ===
+
+User's question: $message
+";
+
+>>>>>>> copy-enhanced-ui-chatbot-changes
         $client = new \GuzzleHttp\Client();
         $response = $client->post('https://api.openai.com/v1/chat/completions', [
             'headers' => [
@@ -83,9 +107,16 @@ class ChatbotHandler {
             'json' => [
                 'model' => 'gpt-4',
                 'messages' => [
+<<<<<<< HEAD
                     ['role' => 'system', 'content' => 'You are a fitness assistant who answers general fitness, health, and nutrition questions only.'],
                     ['role' => 'user', 'content' => $message]
                 ]
+=======
+                    ['role' => 'system', 'content' => 'You are a helpful assistant.'],
+                    ['role' => 'user', 'content' => $prompt]
+                ],
+                'temperature' => 0.1
+>>>>>>> copy-enhanced-ui-chatbot-changes
             ]
         ]);
 

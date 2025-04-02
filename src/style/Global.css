@@ -1,0 +1,513 @@
+/* Enhanced Global.css with Modern Design
+   Color Palette:
+   #f2e4e0 - Light Pink/Beige (242,228,224)
+   #f6b89e - Peach (246,184,158)
+   #f47f6a - Coral (244,127,106)
+   #ff534a - Bright Red (255,83,74)
+   #ff5f56 - Salmon Red (255,95,86)
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: #f2e4e0;
+  line-height: 1.6;
+  color: #333;
+}
+
+/* Page Container with Subtle Radial Gradient */
+.page-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: radial-gradient(circle at top right, #f6b89e, #f2e4e0);
+  padding: 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Decorative Elements */
+.page-container::before {
+  content: '';
+  position: absolute;
+  top: -50px;
+  right: -50px;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background: rgba(255, 83, 74, 0.1);
+  z-index: 0;
+}
+
+.page-container::after {
+  content: '';
+  position: absolute;
+  bottom: -100px;
+  left: -100px;
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  background: rgba(246, 184, 158, 0.15);
+  z-index: 0;
+}
+
+/* Auth Container with Glass Morphism Effect */
+.auth-container {
+  display: flex;
+  max-width: 1000px;
+  width: 90%;
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(10px);
+  border-radius: 24px;
+  overflow: hidden;
+  box-shadow: 0 15px 35px rgba(244, 127, 106, 0.2);
+  position: relative;
+  z-index: 1;
+}
+
+/* Image Container with Enhanced Visuals */
+.image-container {
+  flex: 1;
+  position: relative;
+  overflow: hidden;
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.6s ease-out;
+}
+
+.image-container::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, rgba(244, 127, 106, 0.2), rgba(255, 95, 86, 0.4));
+}
+
+.auth-container:hover .image-container img {
+  transform: scale(1.05);
+}
+
+/* Form Container with Modern Styling */
+.form-container {
+  flex: 1;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+
+/* Animated Title */
+.form-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #ff534a;
+  margin-bottom: 30px;
+  text-align: center;
+  letter-spacing: 0.5px;
+  position: relative;
+  display: inline-block;
+  align-self: center;
+}
+
+.form-title::after {
+  content: '';
+  position: absolute;
+  bottom: -8px;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background: linear-gradient(to right, #f47f6a, #ff534a);
+  border-radius: 4px;
+  transform-origin: left;
+  transform: scaleX(0.8);
+  transition: transform 0.3s ease;
+}
+
+.form-container:hover .form-title::after {
+  transform: scaleX(1);
+}
+
+/* Form Elements with Modern Design */
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 100%;
+}
+
+.input-group {
+  position: relative;
+}
+
+/* Password reveal icon styling */
+.password-input-wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.password-toggle {
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #999;
+  transition: color 0.2s;
+  z-index: 2;
+}
+
+.password-toggle:hover {
+  color: #f47f6a;
+}
+
+.password-toggle svg {
+  width: 20px;
+  height: 20px;
+}
+
+.form-input {
+  width: 100%;
+  padding: 16px 20px;
+  font-size: 1rem;
+  background-color: rgba(242, 228, 224, 0.3);
+  border: 2px solid rgba(246, 184, 158, 0.3);
+  border-radius: 12px;
+  transition: all 0.3s ease;
+}
+
+.form-input:focus {
+  outline: none;
+  border-color: #f47f6a;
+  box-shadow: 0 0 0 4px rgba(244, 127, 106, 0.15);
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.form-input::placeholder {
+  color: #999;
+  transition: color 0.3s;
+}
+
+.form-input:focus::placeholder {
+  color: #f47f6a;
+}
+
+/* Error Message Styling */
+.error-message {
+  color: #ff534a;
+  font-size: 0.8rem;
+  margin-top: 6px;
+  font-weight: 500;
+  padding-left: 8px;
+  display: flex;
+  align-items: center;
+}
+
+.error-message::before {
+  content: '!';
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 16px;
+  height: 16px;
+  background-color: #ff534a;
+  color: white;
+  border-radius: 50%;
+  margin-right: 6px;
+  font-size: 11px;
+  font-weight: bold;
+}
+
+/* Success Message Styling */
+.success-message {
+  color: #2ecc71;
+  font-size: 0.9rem;
+  margin: 15px 0;
+  padding: 12px;
+  background-color: rgba(46, 204, 113, 0.1);
+  border-radius: 10px;
+  text-align: center;
+  border-left: 4px solid #2ecc71;
+}
+
+/* Button Styling with Hover Effects */
+.submit-button {
+  padding: 16px;
+  background: linear-gradient(to right, #f47f6a, #ff534a);
+  color: white;
+  border: none;
+  border-radius: 12px;
+  font-size: 1.05rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 6px 15px rgba(255, 83, 74, 0.25);
+}
+
+.submit-button::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, transparent, rgba(255, 255, 255, 0.2), transparent);
+  transition: left 0.7s;
+}
+
+.submit-button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(255, 83, 74, 0.35);
+}
+
+.submit-button:hover::before {
+  left: 100%;
+}
+
+.submit-button:active {
+  transform: translateY(0);
+}
+
+/* Link Container Styling - NO UNDERLINE */
+.link-container {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 0.95rem;
+}
+
+.auth-link {
+  color: #f47f6a;
+  font-weight: 600;
+  text-decoration: none;
+  position: relative;
+  padding-bottom: 2px;
+  transition: color 0.3s;
+}
+
+.auth-link::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #f47f6a;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.3s ease;
+}
+
+.auth-link:hover {
+  color: #ff534a;
+}
+
+.auth-link:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+/* Instruction Text Styling */
+.instruction-text {
+  font-size: 0.75rem;
+  color: #888;
+  margin-top: 5px;
+  line-height: 1.4;
+  padding-left: 5px;
+  border-left: 2px solid #f6b89e;
+  background-color: rgba(242, 228, 224, 0.3);
+  padding: 8px;
+  border-radius: 0 6px 6px 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .auth-container {
+    flex-direction: column;
+    width: 95%;
+    max-width: 500px;
+  }
+  
+  .image-container {
+    height: 200px;
+    min-height: auto;
+  }
+  
+  .form-container {
+    padding: 30px 25px;
+  }
+  
+  .form-title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .auth-form {
+    gap: 18px;
+  }
+}
+
+/* Animation for form elements */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.form-container > * {
+  animation: fadeIn 0.5s ease-out;
+  animation-fill-mode: both;
+}
+
+.form-container > *:nth-child(1) { animation-delay: 0.1s; }
+.form-container > *:nth-child(2) { animation-delay: 0.2s; }
+.form-container > *:nth-child(3) { animation-delay: 0.3s; }
+
+/* Subtle pulsing animation for buttons */
+@keyframes pulse {
+  0% { box-shadow: 0 0 0 0 rgba(255, 83, 74, 0.4); }
+  70% { box-shadow: 0 0 0 10px rgba(255, 83, 74, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(255, 83, 74, 0); }
+}
+
+.submit-button:focus {
+  animation: pulse 1.5s infinite;
+}
+
+.welcome-container {
+  display: flex;
+  max-width: 1000px;
+  width: 90%;
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(10px);
+  border-radius: 24px;
+  overflow: hidden;
+  box-shadow: 0 15px 35px rgba(244, 127, 106, 0.2);
+  position: relative;
+  z-index: 1;
+}
+
+.image-section {
+  flex: 1;
+  position: relative;
+  overflow: hidden;
+}
+
+.image-section img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.6s ease-out;
+}
+
+.image-section::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, rgba(244, 127, 106, 0.2), rgba(255, 95, 86, 0.4));
+}
+
+.welcome-container:hover .image-section img {
+  transform: scale(1.05);
+}
+
+.content-section {
+  flex: 1;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+
+.welcome-title {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #ff534a;
+  margin-bottom: 20px;
+  letter-spacing: 0.5px;
+  position: relative;
+}
+
+.welcome-title::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 4px;
+  background: linear-gradient(to right, #f47f6a, #ff534a);
+  border-radius: 4px;
+}
+
+.welcome-text {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 30px;
+  color: #666;
+  max-width: 500px;
+}
+
+.welcome-button {
+  min-width: 180px;
+  font-size: 1.1rem;
+  padding: 16px 30px;
+  margin-top: 10px;
+}
+
+/* Animation for welcome elements */
+.content-section > * {
+  animation: fadeIn 0.6s ease-out;
+  animation-fill-mode: both;
+}
+
+.content-section > *:nth-child(1) { animation-delay: 0.2s; }
+.content-section > *:nth-child(2) { animation-delay: 0.4s; }
+.content-section > *:nth-child(3) { animation-delay: 0.6s; }
+
+/* Responsive design for welcome page */
+@media (max-width: 768px) {
+  .welcome-container {
+    flex-direction: column;
+    max-width: 500px;
+  }
+  
+  .image-section {
+    height: 200px;
+  }
+  
+  .welcome-title {
+    font-size: 2.2rem;
+  }
+  
+  .welcome-text {
+    font-size: 1rem;
+    padding: 0 10px;
+  }
+  
+}

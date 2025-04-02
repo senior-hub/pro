@@ -1,0 +1,7 @@
+Received data: Received data: Array
+(
+    [name] => testing11
+    [email] => testing11@gmail.com
+    [password] => TestingPlus1@
+    [confirmPassword] => TestingPlus1@
+)

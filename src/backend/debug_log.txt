@@ -3750,3 +3750,279 @@ User found: Array
 Password verified
 Login successful for user ID: 113
 Response Sent: {"success":true,"role":"user","userId":113,"message":"Login successful"}
+<<<<<<< HEAD
+=======
+Received Raw Data: {"email":"wssw","password":"swswws"}
+Decoded Data: Array
+(
+    [email] => wssw
+    [password] => swswws
+)
+
+Sanitized Email: wssw
+Error: Invalid credentials
+Received Raw Data: {"email":"wssw","password":"swswws"}
+Decoded Data: Array
+(
+    [email] => wssw
+    [password] => swswws
+)
+
+Sanitized Email: wssw
+Error: Invalid credentials
+Received Data: 
+Received Data: Array
+(
+    [dateOfBirth] => 
+    [gender] => 
+    [weight] => 0
+    [height] => 0
+    [activityLevel] => 
+    [userId] => 126
+)
+
+Received Raw Data: {"email":"gpt@gmail.com","password":" GptPlus1@"}
+Decoded Data: Array
+(
+    [email] => gpt@gmail.com
+    [password] =>  GptPlus1@
+)
+
+Sanitized Email: gpt@gmail.com
+Login successful for user ID: 126
+Response Sent: {"success":true,"role":"user","userId":126,"message":"Login successful"}
+Received Data: 
+Received Data: Array
+(
+    [dateOfBirth] => 
+    [gender] => 
+    [weight] => 0
+    [height] => 0
+    [activityLevel] => 
+    [userId] => 127
+)
+
+Received Raw Data: {"email":"gpt@gmail.com","password":"GptPlus1@"}
+Decoded Data: Array
+(
+    [email] => gpt@gmail.com
+    [password] => GptPlus1@
+)
+
+Sanitized Email: gpt@gmail.com
+Login successful for user ID: 126
+Response Sent: {"success":true,"role":"user","userId":126,"message":"Login successful"}
+Received Raw Data: {"email":"testing11@gmail.com","password":"TestingPlus1@"}
+Decoded Data: Array
+(
+    [email] => testing11@gmail.com
+    [password] => TestingPlus1@
+)
+
+Sanitized Email: testing11@gmail.com
+Login successful for user ID: 127
+Response Sent: {"success":true,"role":"user","userId":127,"message":"Login successful"}
+Received Raw Data: {"email":"gpt@gmail.com","password":"GptPlus1@"}
+Decoded Data: Array
+(
+    [email] => gpt@gmail.com
+    [password] => GptPlus1@
+)
+
+Sanitized Email: gpt@gmail.com
+Login successful for user ID: 126
+Response Sent: {"success":true,"role":"user","userId":126,"message":"Login successful"}
+Debug Log: Debug Log: Array
+(
+    [user_id] => 126
+    [id] => 90_90_Hamstring
+    [action] => add
+)
+Debug Log: Array
+(
+    [user_id] => 126
+    [id] => 90_90_Hamstring
+    [action] => remove
+)
+Debug Log: Debug Log: Array
+(
+    [user_id] => 126
+    [id] => 90_90_Hamstring
+    [action] => add
+)
+Received Raw Data: EMPTY
+Received Raw Data: EMPTY
+Decoded Data: 
+Decoded Data: 
+Received Raw Data: {"program_name":"Expert Power & Strength Program"}
+Decoded Data: Array
+(
+    [program_name] => Expert Power & Strength Program
+)
+
+Received Raw Data: {"program_name":"Expert Power & Strength Program"}
+Decoded Data: Array
+(
+    [program_name] => Expert Power & Strength Program
+)
+
+Received Raw Data: EMPTY
+Decoded Data: 
+Received Raw Data: EMPTY
+Decoded Data: 
+Received Raw Data: {"program_name":"Beginner Flexibility Program"}
+Decoded Data: Array
+(
+    [program_name] => Beginner Flexibility Program
+)
+
+Received Raw Data: EMPTY
+Decoded Data: 
+Received Raw Data: {"program_name":"Expert Power & Strength Program"}
+Decoded Data: Array
+(
+    [program_name] => Expert Power & Strength Program
+)
+
+Received Raw Data: EMPTY
+Decoded Data: 
+Received Raw Data: {"program_name":"Expert Power & Strength Program"}
+Decoded Data: Array
+(
+    [program_name] => Expert Power & Strength Program
+)
+
+Received Raw Data: {"program_name":"Beginner Flexibility Program"}
+Received Raw Data: {"program_name":"Beginner Flexibility Program"}
+Decoded Data: Array
+(
+    [program_name] => Beginner Flexibility Program
+)
+
+Received Raw Data: EMPTY
+Received Raw Data: EMPTY
+Decoded Data: 
+Decoded Data: 
+Received Raw Data: {"program_name":"Beginner Flexibility Program"}
+Decoded Data: Array
+(
+    [program_name] => Beginner Flexibility Program
+)
+
+Received Raw Data: {"program_name":"Beginner Flexibility Program"}
+Decoded Data: Array
+(
+    [program_name] => Beginner Flexibility Program
+)
+
+Received Data: 
+Received Data: Array
+(
+    [dateOfBirth] => 2025-03-20
+    [gender] => female
+    [weight] => 100
+    [height] => 180
+    [activityLevel] => medium
+    [userId] => 126
+)
+
+Received Data: 
+Received Data: Array
+(
+    [dateOfBirth] => 2025-03-04
+    [gender] => male
+    [weight] => 60
+    [height] => 140
+    [activityLevel] => low
+    [userId] => 126
+)
+
+Received Data: 
+Received Data: Array
+(
+    [dateOfBirth] => 2025-03-14
+    [gender] => male
+    [weight] => 70
+    [height] => 180
+    [activityLevel] => medium
+    [userId] => 126
+)
+
+Received Data: 
+Received Data: Array
+(
+    [dateOfBirth] => 2025-03-21
+    [gender] => male
+    [weight] => 67
+    [height] => 170
+    [activityLevel] => medium
+    [userId] => 126
+)
+
+Debug Log: Debug Log: Array
+(
+    [user_id] => 126
+    [id] => 3_4_Sit-Up
+    [action] => add
+)
+Debug Log: Array
+(
+    [user_id] => 126
+    [id] => 3_4_Sit-Up
+    [action] => remove
+)
+Debug Log: Array
+(
+    [user_id] => 126
+    [id] => 3_4_Sit-Up
+    [action] => add
+)
+Debug Log: Debug Log: Array
+(
+    [user_id] => 126
+    [id] => 3_4_Sit-Up
+    [action] => remove
+)
+Received Raw Data: EMPTY
+Received Raw Data: EMPTY
+Decoded Data: 
+Decoded Data: 
+Received Raw Data: {"program_name":"Intermediate Weight Loss Program"}
+Received Raw Data: {"program_name":"Intermediate Weight Loss Program"}
+Decoded Data: Array
+(
+    [program_name] => Intermediate Weight Loss Program
+)
+
+Decoded Data: Array
+(
+    [program_name] => Intermediate Weight Loss Program
+)
+
+Received Raw Data: EMPTY
+Received Raw Data: EMPTY
+Decoded Data: 
+Decoded Data: 
+Received Raw Data: {"program_name":"Intermediate Weight Loss Program"}
+Decoded Data: Array
+(
+    [program_name] => Intermediate Weight Loss Program
+)
+
+Decoded Data: Array
+(
+    [program_name] => Intermediate Weight Loss Program
+)
+
+Received Data: 
+Received Data: Array
+(
+    [dateOfBirth] => 2025-03-13
+    [gender] => female
+    [weight] => 60
+    [height] => 150
+    [activityLevel] => medium
+    [userId] => 126
+)
+
+>>>>>>> copy-enhanced-ui-chatbot-changes

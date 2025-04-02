@@ -19,19 +19,57 @@ header("Access-Control-Allow-Credentials: true");
 header("Access-Control-Allow-Headers: Content-Type");
 header("Content-Type: application/json");
 
+<<<<<<< HEAD
 // ✅ Ensure user is logged in
 if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
+=======
+// Debug incoming auth data
+file_put_contents(__DIR__ . '/../../chatbot_debug.txt', "Session: " . print_r($_SESSION, true) . "\n", FILE_APPEND);
+file_put_contents(__DIR__ . '/../../chatbot_debug.txt', "Cookies: " . print_r($_COOKIE, true) . "\n", FILE_APPEND);
+
+// Check user authentication from both session and cookies
+$is_logged_in = isset($_SESSION['loggedin']) && $_SESSION['loggedin'] === true;
+$user_id = $_SESSION['user_id'] ?? null;
+
+// If session authentication fails, check cookies
+if (!$is_logged_in || !$user_id) {
+    // Check for authentication cookie
+    if (isset($_COOKIE['userId']) && isset($_COOKIE['loggedIn']) && $_COOKIE['loggedIn'] === 'true') {
+        $user_id = $_COOKIE['userId'];
+        $is_logged_in = true;
+        
+        // Restore session from cookies
+        $_SESSION['user_id'] = $user_id;
+        $_SESSION['loggedin'] = true;
+        
+        file_put_contents(__DIR__ . '/../../chatbot_debug.txt', "Auth restored from cookies, User ID: $user_id\n", FILE_APPEND);
+    }
+}
+
+// Final authentication check
+if (!$is_logged_in) {
+>>>>>>> copy-enhanced-ui-chatbot-changes
     echo json_encode(["error" => "Unauthorized - Please log in"]);
     exit;
 }
 
+<<<<<<< HEAD
 // ✅ Get user ID from session
 $user_id = $_SESSION['user_id'] ?? null;
+=======
+// Ensure user_id is available
+>>>>>>> copy-enhanced-ui-chatbot-changes
 if (!$user_id) {
     echo json_encode(["error" => "User ID missing"]);
     exit;
 }
 
+<<<<<<< HEAD
+=======
+// Make sure user_id is an integer
+$user_id = intval($user_id);
+
+>>>>>>> copy-enhanced-ui-chatbot-changes
 // ✅ Read input data safely
 $data = json_decode(file_get_contents("php://input"), true);
 $userMessage = trim($data['message'] ?? '');
@@ -133,4 +171,8 @@ function storeMessage($db, $user_id, $role, $message) {
     } else {
         error_log("Database error: " . $db->error);
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> copy-enhanced-ui-chatbot-changes

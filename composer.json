@@ -5,6 +5,15 @@
             "CustomPcBh\\MyApp\\": "src/"
         }
     },
+<<<<<<< HEAD
+=======
+    "authors": [
+        {
+            "name": "faefty",
+            "email": "fty2607@gmail.com"
+        }
+    ],
+>>>>>>> copy-enhanced-ui-chatbot-changes
     "require": {
         "vlucas/phpdotenv": "^5.6",
         "guzzlehttp/guzzle": "^7.9"

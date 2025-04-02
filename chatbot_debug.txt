@@ -1,0 +1,350 @@
+Session: Array
+(
+    [initialized] => 1
+)
+
+Cookies: Array
+(
+)
+
+Session: Array
+(
+    [initialized] => 1
+    [user_id] => 126
+    [role] => user
+    [loggedin] => 1
+)
+
+Cookies: Array
+(
+    [_AspNetCore_Cookies] => CfDJ8LOCk4QYqCJNgYZQ7tAB4Vytg8YHpSIjjopjGe0ryJIQFrtWT7Q2YURys9DHED88-LLOunJHV9tt8abOcSerjrXnM-hag5RTzW6ELK1YREYvaZPM8miAa3GyRX3N_x9hVdVj4kRrhzsy_B7KFX9fMevUNgWiKRDOnDb_U5YRKWQ26AOKorXD9ynrL3MbOoDq1w4hpskYKopjt9yuYd4useujPl0wnsYOgMFlVuBG3SHNeL2rx4UG-lPBF98VJL5RNZ-kyWW31TX7kTeLnPfxPwXJlZJgMdPTIZhNw5aLp5zHe0DBnSYgK_-sDDlFJYRkRh2Fx1DHEmofOhXUu2AYKqcrVHIaF-6xTxuO_rOPFC2myIjCL6bAi-7hwZ2Kb5O6dQIln7GPF9zeRN5-abDdbJsovufrl2gKduPw0F86euOjXQquueTeNIvbi3B-u20Gc0QU3RC305B3dJSM-vbesF2UFBRIf95CYswnP-Bs7eWQmBN05SJnqD8Y0U_I0uMV_w
+    [PHPSESSID] => 5nl1m8esfg9m795v3bq5re8rjq
+    [loggedIn] => true
+    [userId] => 127
+)
+
+Session: Array
+(
+    [initialized] => 1
+)
+
+Cookies: Array
+(
+)
+
+Session: Array
+(
+    [initialized] => 1
+    [user_id] => 126
+    [role] => user
+    [loggedin] => 1
+)
+
+Cookies: Array
+(
+    [_AspNetCore_Cookies] => CfDJ8LOCk4QYqCJNgYZQ7tAB4Vytg8YHpSIjjopjGe0ryJIQFrtWT7Q2YURys9DHED88-LLOunJHV9tt8abOcSerjrXnM-hag5RTzW6ELK1YREYvaZPM8miAa3GyRX3N_x9hVdVj4kRrhzsy_B7KFX9fMevUNgWiKRDOnDb_U5YRKWQ26AOKorXD9ynrL3MbOoDq1w4hpskYKopjt9yuYd4useujPl0wnsYOgMFlVuBG3SHNeL2rx4UG-lPBF98VJL5RNZ-kyWW31TX7kTeLnPfxPwXJlZJgMdPTIZhNw5aLp5zHe0DBnSYgK_-sDDlFJYRkRh2Fx1DHEmofOhXUu2AYKqcrVHIaF-6xTxuO_rOPFC2myIjCL6bAi-7hwZ2Kb5O6dQIln7GPF9zeRN5-abDdbJsovufrl2gKduPw0F86euOjXQquueTeNIvbi3B-u20Gc0QU3RC305B3dJSM-vbesF2UFBRIf95CYswnP-Bs7eWQmBN05SJnqD8Y0U_I0uMV_w
+    [PHPSESSID] => 5nl1m8esfg9m795v3bq5re8rjq
+    [loggedIn] => true
+    [userId] => 127
+)
+
+Session: Array
+(
+    [initialized] => 1
+)
+
+Cookies: Array
+(
+)
+
+Session: Array
+(
+    [initialized] => 1
+    [user_id] => 126
+    [role] => user
+    [loggedin] => 1
+)
+
+Cookies: Array
+(
+    [_AspNetCore_Cookies] => CfDJ8LOCk4QYqCJNgYZQ7tAB4Vytg8YHpSIjjopjGe0ryJIQFrtWT7Q2YURys9DHED88-LLOunJHV9tt8abOcSerjrXnM-hag5RTzW6ELK1YREYvaZPM8miAa3GyRX3N_x9hVdVj4kRrhzsy_B7KFX9fMevUNgWiKRDOnDb_U5YRKWQ26AOKorXD9ynrL3MbOoDq1w4hpskYKopjt9yuYd4useujPl0wnsYOgMFlVuBG3SHNeL2rx4UG-lPBF98VJL5RNZ-kyWW31TX7kTeLnPfxPwXJlZJgMdPTIZhNw5aLp5zHe0DBnSYgK_-sDDlFJYRkRh2Fx1DHEmofOhXUu2AYKqcrVHIaF-6xTxuO_rOPFC2myIjCL6bAi-7hwZ2Kb5O6dQIln7GPF9zeRN5-abDdbJsovufrl2gKduPw0F86euOjXQquueTeNIvbi3B-u20Gc0QU3RC305B3dJSM-vbesF2UFBRIf95CYswnP-Bs7eWQmBN05SJnqD8Y0U_I0uMV_w
+    [PHPSESSID] => 5nl1m8esfg9m795v3bq5re8rjq
+    [loggedIn] => true
+    [userId] => 127
+)
+
+Session: Array
+(
+    [initialized] => 1
+)
+
+Cookies: Array
+(
+)
+
+Session: Array
+(
+    [initialized] => 1
+    [user_id] => 126
+    [role] => user
+    [loggedin] => 1
+)
+
+Cookies: Array
+(
+    [_AspNetCore_Cookies] => CfDJ8LOCk4QYqCJNgYZQ7tAB4Vytg8YHpSIjjopjGe0ryJIQFrtWT7Q2YURys9DHED88-LLOunJHV9tt8abOcSerjrXnM-hag5RTzW6ELK1YREYvaZPM8miAa3GyRX3N_x9hVdVj4kRrhzsy_B7KFX9fMevUNgWiKRDOnDb_U5YRKWQ26AOKorXD9ynrL3MbOoDq1w4hpskYKopjt9yuYd4useujPl0wnsYOgMFlVuBG3SHNeL2rx4UG-lPBF98VJL5RNZ-kyWW31TX7kTeLnPfxPwXJlZJgMdPTIZhNw5aLp5zHe0DBnSYgK_-sDDlFJYRkRh2Fx1DHEmofOhXUu2AYKqcrVHIaF-6xTxuO_rOPFC2myIjCL6bAi-7hwZ2Kb5O6dQIln7GPF9zeRN5-abDdbJsovufrl2gKduPw0F86euOjXQquueTeNIvbi3B-u20Gc0QU3RC305B3dJSM-vbesF2UFBRIf95CYswnP-Bs7eWQmBN05SJnqD8Y0U_I0uMV_w
+    [PHPSESSID] => 5nl1m8esfg9m795v3bq5re8rjq
+    [loggedIn] => true
+    [userId] => 127
+)
+
+Session: Array
+(
+    [initialized] => 1
+)
+
+Cookies: Array
+(
+)
+
+Session: Array
+(
+    [initialized] => 1
+    [user_id] => 126
+    [role] => user
+    [loggedin] => 1
+)
+
+Cookies: Array
+(
+    [_AspNetCore_Cookies] => CfDJ8LOCk4QYqCJNgYZQ7tAB4Vytg8YHpSIjjopjGe0ryJIQFrtWT7Q2YURys9DHED88-LLOunJHV9tt8abOcSerjrXnM-hag5RTzW6ELK1YREYvaZPM8miAa3GyRX3N_x9hVdVj4kRrhzsy_B7KFX9fMevUNgWiKRDOnDb_U5YRKWQ26AOKorXD9ynrL3MbOoDq1w4hpskYKopjt9yuYd4useujPl0wnsYOgMFlVuBG3SHNeL2rx4UG-lPBF98VJL5RNZ-kyWW31TX7kTeLnPfxPwXJlZJgMdPTIZhNw5aLp5zHe0DBnSYgK_-sDDlFJYRkRh2Fx1DHEmofOhXUu2AYKqcrVHIaF-6xTxuO_rOPFC2myIjCL6bAi-7hwZ2Kb5O6dQIln7GPF9zeRN5-abDdbJsovufrl2gKduPw0F86euOjXQquueTeNIvbi3B-u20Gc0QU3RC305B3dJSM-vbesF2UFBRIf95CYswnP-Bs7eWQmBN05SJnqD8Y0U_I0uMV_w
+    [PHPSESSID] => 5nl1m8esfg9m795v3bq5re8rjq
+    [loggedIn] => true
+    [userId] => 127
+)
+
+Session: Array
+(
+    [initialized] => 1
+)
+
+Cookies: Array
+(
+)
+
+Session: Array
+(
+    [initialized] => 1
+    [user_id] => 127
+    [role] => user
+    [loggedin] => 1
+)
+
+Cookies: Array
+(
+    [_AspNetCore_Cookies] => CfDJ8LOCk4QYqCJNgYZQ7tAB4Vytg8YHpSIjjopjGe0ryJIQFrtWT7Q2YURys9DHED88-LLOunJHV9tt8abOcSerjrXnM-hag5RTzW6ELK1YREYvaZPM8miAa3GyRX3N_x9hVdVj4kRrhzsy_B7KFX9fMevUNgWiKRDOnDb_U5YRKWQ26AOKorXD9ynrL3MbOoDq1w4hpskYKopjt9yuYd4useujPl0wnsYOgMFlVuBG3SHNeL2rx4UG-lPBF98VJL5RNZ-kyWW31TX7kTeLnPfxPwXJlZJgMdPTIZhNw5aLp5zHe0DBnSYgK_-sDDlFJYRkRh2Fx1DHEmofOhXUu2AYKqcrVHIaF-6xTxuO_rOPFC2myIjCL6bAi-7hwZ2Kb5O6dQIln7GPF9zeRN5-abDdbJsovufrl2gKduPw0F86euOjXQquueTeNIvbi3B-u20Gc0QU3RC305B3dJSM-vbesF2UFBRIf95CYswnP-Bs7eWQmBN05SJnqD8Y0U_I0uMV_w
+    [loggedIn] => true
+    [PHPSESSID] => kjk92hd8pmm7r9sbhbscd6qrch
+    [userId] => 127
+)
+
+Session: Array
+(
+    [initialized] => 1
+)
+
+Cookies: Array
+(
+)
+
+Session: Array
+(
+    [initialized] => 1
+    [user_id] => 126
+    [role] => user
+    [loggedin] => 1
+)
+
+Cookies: Array
+(
+    [_AspNetCore_Cookies] => CfDJ8LOCk4QYqCJNgYZQ7tAB4Vytg8YHpSIjjopjGe0ryJIQFrtWT7Q2YURys9DHED88-LLOunJHV9tt8abOcSerjrXnM-hag5RTzW6ELK1YREYvaZPM8miAa3GyRX3N_x9hVdVj4kRrhzsy_B7KFX9fMevUNgWiKRDOnDb_U5YRKWQ26AOKorXD9ynrL3MbOoDq1w4hpskYKopjt9yuYd4useujPl0wnsYOgMFlVuBG3SHNeL2rx4UG-lPBF98VJL5RNZ-kyWW31TX7kTeLnPfxPwXJlZJgMdPTIZhNw5aLp5zHe0DBnSYgK_-sDDlFJYRkRh2Fx1DHEmofOhXUu2AYKqcrVHIaF-6xTxuO_rOPFC2myIjCL6bAi-7hwZ2Kb5O6dQIln7GPF9zeRN5-abDdbJsovufrl2gKduPw0F86euOjXQquueTeNIvbi3B-u20Gc0QU3RC305B3dJSM-vbesF2UFBRIf95CYswnP-Bs7eWQmBN05SJnqD8Y0U_I0uMV_w
+    [loggedIn] => true
+    [PHPSESSID] => 3c9g84fphlqkavhoenu5mhkhi8
+    [userId] => 126
+)
+
+Session: Array
+(
+    [initialized] => 1
+)
+
+Cookies: Array
+(
+)
+
+Session: Array
+(
+    [initialized] => 1
+    [user_id] => 126
+    [role] => user
+    [loggedin] => 1
+)
+
+Cookies: Array
+(
+    [_AspNetCore_Cookies] => CfDJ8LOCk4QYqCJNgYZQ7tAB4Vytg8YHpSIjjopjGe0ryJIQFrtWT7Q2YURys9DHED88-LLOunJHV9tt8abOcSerjrXnM-hag5RTzW6ELK1YREYvaZPM8miAa3GyRX3N_x9hVdVj4kRrhzsy_B7KFX9fMevUNgWiKRDOnDb_U5YRKWQ26AOKorXD9ynrL3MbOoDq1w4hpskYKopjt9yuYd4useujPl0wnsYOgMFlVuBG3SHNeL2rx4UG-lPBF98VJL5RNZ-kyWW31TX7kTeLnPfxPwXJlZJgMdPTIZhNw5aLp5zHe0DBnSYgK_-sDDlFJYRkRh2Fx1DHEmofOhXUu2AYKqcrVHIaF-6xTxuO_rOPFC2myIjCL6bAi-7hwZ2Kb5O6dQIln7GPF9zeRN5-abDdbJsovufrl2gKduPw0F86euOjXQquueTeNIvbi3B-u20Gc0QU3RC305B3dJSM-vbesF2UFBRIf95CYswnP-Bs7eWQmBN05SJnqD8Y0U_I0uMV_w
+    [loggedIn] => true
+    [PHPSESSID] => 3c9g84fphlqkavhoenu5mhkhi8
+    [userId] => 126
+)
+
+Session: Array
+(
+    [initialized] => 1
+)
+
+Cookies: Array
+(
+)
+
+Session: Array
+(
+    [initialized] => 1
+    [user_id] => 126
+    [role] => user
+    [loggedin] => 1
+)
+
+Cookies: Array
+(
+    [_AspNetCore_Cookies] => CfDJ8LOCk4QYqCJNgYZQ7tAB4Vytg8YHpSIjjopjGe0ryJIQFrtWT7Q2YURys9DHED88-LLOunJHV9tt8abOcSerjrXnM-hag5RTzW6ELK1YREYvaZPM8miAa3GyRX3N_x9hVdVj4kRrhzsy_B7KFX9fMevUNgWiKRDOnDb_U5YRKWQ26AOKorXD9ynrL3MbOoDq1w4hpskYKopjt9yuYd4useujPl0wnsYOgMFlVuBG3SHNeL2rx4UG-lPBF98VJL5RNZ-kyWW31TX7kTeLnPfxPwXJlZJgMdPTIZhNw5aLp5zHe0DBnSYgK_-sDDlFJYRkRh2Fx1DHEmofOhXUu2AYKqcrVHIaF-6xTxuO_rOPFC2myIjCL6bAi-7hwZ2Kb5O6dQIln7GPF9zeRN5-abDdbJsovufrl2gKduPw0F86euOjXQquueTeNIvbi3B-u20Gc0QU3RC305B3dJSM-vbesF2UFBRIf95CYswnP-Bs7eWQmBN05SJnqD8Y0U_I0uMV_w
+    [loggedIn] => true
+    [PHPSESSID] => 3c9g84fphlqkavhoenu5mhkhi8
+    [userId] => 126
+)
+
+Session: Array
+(
+    [initialized] => 1
+)
+
+Cookies: Array
+(
+)
+
+Session: Array
+(
+    [initialized] => 1
+    [user_id] => 126
+    [role] => user
+    [loggedin] => 1
+)
+
+Cookies: Array
+(
+    [_AspNetCore_Cookies] => CfDJ8LOCk4QYqCJNgYZQ7tAB4Vytg8YHpSIjjopjGe0ryJIQFrtWT7Q2YURys9DHED88-LLOunJHV9tt8abOcSerjrXnM-hag5RTzW6ELK1YREYvaZPM8miAa3GyRX3N_x9hVdVj4kRrhzsy_B7KFX9fMevUNgWiKRDOnDb_U5YRKWQ26AOKorXD9ynrL3MbOoDq1w4hpskYKopjt9yuYd4useujPl0wnsYOgMFlVuBG3SHNeL2rx4UG-lPBF98VJL5RNZ-kyWW31TX7kTeLnPfxPwXJlZJgMdPTIZhNw5aLp5zHe0DBnSYgK_-sDDlFJYRkRh2Fx1DHEmofOhXUu2AYKqcrVHIaF-6xTxuO_rOPFC2myIjCL6bAi-7hwZ2Kb5O6dQIln7GPF9zeRN5-abDdbJsovufrl2gKduPw0F86euOjXQquueTeNIvbi3B-u20Gc0QU3RC305B3dJSM-vbesF2UFBRIf95CYswnP-Bs7eWQmBN05SJnqD8Y0U_I0uMV_w
+    [loggedIn] => true
+    [PHPSESSID] => 3c9g84fphlqkavhoenu5mhkhi8
+    [userId] => 126
+)
+
+Session: Array
+(
+    [initialized] => 1
+)
+
+Cookies: Array
+(
+)
+
+Session: Array
+(
+    [initialized] => 1
+    [user_id] => 126
+    [role] => user
+    [loggedin] => 1
+)
+
+Cookies: Array
+(
+    [_AspNetCore_Cookies] => CfDJ8LOCk4QYqCJNgYZQ7tAB4Vytg8YHpSIjjopjGe0ryJIQFrtWT7Q2YURys9DHED88-LLOunJHV9tt8abOcSerjrXnM-hag5RTzW6ELK1YREYvaZPM8miAa3GyRX3N_x9hVdVj4kRrhzsy_B7KFX9fMevUNgWiKRDOnDb_U5YRKWQ26AOKorXD9ynrL3MbOoDq1w4hpskYKopjt9yuYd4useujPl0wnsYOgMFlVuBG3SHNeL2rx4UG-lPBF98VJL5RNZ-kyWW31TX7kTeLnPfxPwXJlZJgMdPTIZhNw5aLp5zHe0DBnSYgK_-sDDlFJYRkRh2Fx1DHEmofOhXUu2AYKqcrVHIaF-6xTxuO_rOPFC2myIjCL6bAi-7hwZ2Kb5O6dQIln7GPF9zeRN5-abDdbJsovufrl2gKduPw0F86euOjXQquueTeNIvbi3B-u20Gc0QU3RC305B3dJSM-vbesF2UFBRIf95CYswnP-Bs7eWQmBN05SJnqD8Y0U_I0uMV_w
+    [loggedIn] => true
+    [PHPSESSID] => 3c9g84fphlqkavhoenu5mhkhi8
+    [userId] => 126
+)
+
+Session: Array
+(
+    [initialized] => 1
+)
+
+Cookies: Array
+(
+)
+
+Session: Array
+(
+    [initialized] => 1
+    [user_id] => 126
+    [role] => user
+    [loggedin] => 1
+)
+
+Cookies: Array
+(
+    [_AspNetCore_Cookies] => CfDJ8LOCk4QYqCJNgYZQ7tAB4Vytg8YHpSIjjopjGe0ryJIQFrtWT7Q2YURys9DHED88-LLOunJHV9tt8abOcSerjrXnM-hag5RTzW6ELK1YREYvaZPM8miAa3GyRX3N_x9hVdVj4kRrhzsy_B7KFX9fMevUNgWiKRDOnDb_U5YRKWQ26AOKorXD9ynrL3MbOoDq1w4hpskYKopjt9yuYd4useujPl0wnsYOgMFlVuBG3SHNeL2rx4UG-lPBF98VJL5RNZ-kyWW31TX7kTeLnPfxPwXJlZJgMdPTIZhNw5aLp5zHe0DBnSYgK_-sDDlFJYRkRh2Fx1DHEmofOhXUu2AYKqcrVHIaF-6xTxuO_rOPFC2myIjCL6bAi-7hwZ2Kb5O6dQIln7GPF9zeRN5-abDdbJsovufrl2gKduPw0F86euOjXQquueTeNIvbi3B-u20Gc0QU3RC305B3dJSM-vbesF2UFBRIf95CYswnP-Bs7eWQmBN05SJnqD8Y0U_I0uMV_w
+    [loggedIn] => true
+    [PHPSESSID] => 3c9g84fphlqkavhoenu5mhkhi8
+    [userId] => 126
+)
+
+Session: Array
+(
+    [initialized] => 1
+)
+
+Cookies: Array
+(
+)
+
+Session: Array
+(
+    [initialized] => 1
+    [user_id] => 126
+    [role] => user
+    [loggedin] => 1
+)
+
+Cookies: Array
+(
+    [_AspNetCore_Cookies] => CfDJ8LOCk4QYqCJNgYZQ7tAB4Vytg8YHpSIjjopjGe0ryJIQFrtWT7Q2YURys9DHED88-LLOunJHV9tt8abOcSerjrXnM-hag5RTzW6ELK1YREYvaZPM8miAa3GyRX3N_x9hVdVj4kRrhzsy_B7KFX9fMevUNgWiKRDOnDb_U5YRKWQ26AOKorXD9ynrL3MbOoDq1w4hpskYKopjt9yuYd4useujPl0wnsYOgMFlVuBG3SHNeL2rx4UG-lPBF98VJL5RNZ-kyWW31TX7kTeLnPfxPwXJlZJgMdPTIZhNw5aLp5zHe0DBnSYgK_-sDDlFJYRkRh2Fx1DHEmofOhXUu2AYKqcrVHIaF-6xTxuO_rOPFC2myIjCL6bAi-7hwZ2Kb5O6dQIln7GPF9zeRN5-abDdbJsovufrl2gKduPw0F86euOjXQquueTeNIvbi3B-u20Gc0QU3RC305B3dJSM-vbesF2UFBRIf95CYswnP-Bs7eWQmBN05SJnqD8Y0U_I0uMV_w
+    [loggedIn] => true
+    [PHPSESSID] => 3c9g84fphlqkavhoenu5mhkhi8
+    [userId] => 126
+)
+
+Session: Array
+(
+    [initialized] => 1
+)
+
+Cookies: Array
+(
+)
+
+Session: Array
+(
+    [initialized] => 1
+    [user_id] => 126
+    [role] => user
+    [loggedin] => 1
+)
+
+Cookies: Array
+(
+    [_AspNetCore_Cookies] => CfDJ8LOCk4QYqCJNgYZQ7tAB4Vytg8YHpSIjjopjGe0ryJIQFrtWT7Q2YURys9DHED88-LLOunJHV9tt8abOcSerjrXnM-hag5RTzW6ELK1YREYvaZPM8miAa3GyRX3N_x9hVdVj4kRrhzsy_B7KFX9fMevUNgWiKRDOnDb_U5YRKWQ26AOKorXD9ynrL3MbOoDq1w4hpskYKopjt9yuYd4useujPl0wnsYOgMFlVuBG3SHNeL2rx4UG-lPBF98VJL5RNZ-kyWW31TX7kTeLnPfxPwXJlZJgMdPTIZhNw5aLp5zHe0DBnSYgK_-sDDlFJYRkRh2Fx1DHEmofOhXUu2AYKqcrVHIaF-6xTxuO_rOPFC2myIjCL6bAi-7hwZ2Kb5O6dQIln7GPF9zeRN5-abDdbJsovufrl2gKduPw0F86euOjXQquueTeNIvbi3B-u20Gc0QU3RC305B3dJSM-vbesF2UFBRIf95CYswnP-Bs7eWQmBN05SJnqD8Y0U_I0uMV_w
+    [loggedIn] => true
+    [PHPSESSID] => 3c9g84fphlqkavhoenu5mhkhi8
+    [userId] => 126
+)
+

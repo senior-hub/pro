@@ -238,3 +238,85 @@ Selected Goal IDs: Array
 
 User 124: Found 0 record(s).
 Inserted record: user_id = 124, fitness_goal_id = ENDURANCE
+<<<<<<< HEAD
+=======
+Raw data: 
+No raw data received.
+Raw data: {"requestData":{"selectedGoalIds":[],"userId":126}}
+Decoded Data:
+User ID: 126
+Selected Goal IDs: Array
+(
+)
+
+User 126: Found 0 record(s).
+Raw data: 
+No raw data received.
+Raw data: {"requestData":{"selectedGoalIds":[],"userId":127}}
+Decoded Data:
+User ID: 127
+Selected Goal IDs: Array
+(
+)
+
+User 127: Found 0 record(s).
+Raw data: 
+No raw data received.
+Raw data: {"requestData":{"selectedGoalIds":["general_fitness","ENDURANCE","FLEXIBILITY","MUSCLE_GAIN"],"userId":"126"}}
+Decoded Data:
+User ID: 126
+Selected Goal IDs: Array
+(
+    [0] => general_fitness
+    [1] => ENDURANCE
+    [2] => FLEXIBILITY
+    [3] => MUSCLE_GAIN
+)
+
+User 126: Found 1 record(s).
+User 126: Deleted 1 record(s).
+Inserted record: user_id = 126, fitness_goal_id = general_fitness
+Inserted record: user_id = 126, fitness_goal_id = ENDURANCE
+Inserted record: user_id = 126, fitness_goal_id = FLEXIBILITY
+Inserted record: user_id = 126, fitness_goal_id = MUSCLE_GAIN
+Raw data: 
+No raw data received.
+Raw data: {"requestData":{"selectedGoalIds":["general_fitness","ENDURANCE","FLEXIBILITY","MUSCLE_GAIN","STRENGTH"],"userId":"126"}}
+Decoded Data:
+User ID: 126
+Selected Goal IDs: Array
+(
+    [0] => general_fitness
+    [1] => ENDURANCE
+    [2] => FLEXIBILITY
+    [3] => MUSCLE_GAIN
+    [4] => STRENGTH
+)
+
+User 126: Found 4 record(s).
+User 126: Deleted 4 record(s).
+Inserted record: user_id = 126, fitness_goal_id = general_fitness
+Inserted record: user_id = 126, fitness_goal_id = ENDURANCE
+Inserted record: user_id = 126, fitness_goal_id = FLEXIBILITY
+Inserted record: user_id = 126, fitness_goal_id = MUSCLE_GAIN
+Inserted record: user_id = 126, fitness_goal_id = STRENGTH
+Raw data: 
+No raw data received.
+Raw data: {"requestData":{"selectedGoalIds":["ENDURANCE","general_fitness","STRENGTH","WEIGHT_LOSS"],"userId":"126"}}
+Decoded Data:
+User ID: 126
+Selected Goal IDs: Array
+(
+    [0] => ENDURANCE
+    [1] => general_fitness
+    [2] => STRENGTH
+    [3] => WEIGHT_LOSS
+)
+
+User 126: Found 5 record(s).
+User 126: Deleted 5 record(s).
+Inserted record: user_id = 126, fitness_goal_id = ENDURANCE
+Inserted record: user_id = 126, fitness_goal_id = general_fitness
+Inserted record: user_id = 126, fitness_goal_id = STRENGTH
+Inserted record: user_id = 126, fitness_goal_id = WEIGHT_LOSS
+>>>>>>> copy-enhanced-ui-chatbot-changes
