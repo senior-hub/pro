@@ -1,37 +1,5 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-<<<<<<< HEAD
-import "../style/Welcome.css";
-
-function Welcome() {
-  const navigate = useNavigate();
-
-  return (
-    <div className="welcome-container">
-      
-
-<div className="image-section">
-        <img src="ex6.png" alt="Side Image" className="side-image" />
-      </div>
-      
-      <div className="welcome-box">
-    
-        <h1>Welcome to GrowFit</h1>
-        <p>Explore and enjoy your experience!</p>
-        <button onClick={() => navigate("/Login")}>Enter App</button>
-        
-      
-    
-    </div>
-
-
-  </div>
-
-  );
-}
-
-export default Welcome;
-=======
 import "../style/Global.css";
 
 function Welcome() {
@@ -59,4 +27,3 @@ function Welcome() {
 }
 
 export default Welcome;
->>>>>>> copy-enhanced-ui-chatbot-changes
