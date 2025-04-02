@@ -1,14 +1,4 @@
 import React, { useState } from "react";
-<<<<<<< HEAD
-import { useNavigate } from "react-router-dom"; // For redirection
-import { Link } from 'react-router-dom';
-import { useApp } from "../context/AppContext";
-import Cookies from "js-cookie"; // Import Cookies
-
-const Login = () => {
-    const { setUserId, setLoggedIn } = useApp();
-
-=======
 import { useNavigate } from "react-router-dom";
 import { Link } from 'react-router-dom';
 import { useApp } from "../context/AppContext";
@@ -17,28 +7,17 @@ import "../style/Global.css";
 
 const Login = () => {
     const { setUserId, setLoggedIn } = useApp();
->>>>>>> copy-enhanced-ui-chatbot-changes
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
     const [emailError, setEmailError] = useState("");
     const [passwordError, setPasswordError] = useState("");
     const [message, setMessage] = useState("");
-<<<<<<< HEAD
-    const navigate = useNavigate(); // Hook to handle redirection
-
-
-
-    const handleLogin = async (e) => {
-        e.preventDefault();
-        sessionStorage.clear();  // ✅ Clear any old session
-=======
     const [showPassword, setShowPassword] = useState(false);
     const navigate = useNavigate();
 
     const handleLogin = async (e) => {
         e.preventDefault();
         sessionStorage.clear();
->>>>>>> copy-enhanced-ui-chatbot-changes
     
         let valid = true;
         setEmailError("");
@@ -59,11 +38,7 @@ const Login = () => {
             const response = await fetch("http://localhost/my-app/src/backend/Login.php", {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
-<<<<<<< HEAD
-                credentials: "include", // ✅ Important: This ensures cookies are sent
-=======
                 credentials: "include",
->>>>>>> copy-enhanced-ui-chatbot-changes
                 body: JSON.stringify({ email, password })
             });
     
@@ -73,12 +48,7 @@ const Login = () => {
             if (data.success) {
                 setMessage("Login successfully!");
     
-<<<<<<< HEAD
-                // ✅ Store session in cookies
-                Cookies.set("userId", data.userId, { expires: 1 }); // 1-day expiry
-=======
                 Cookies.set("userId", data.userId, { expires: 1 });
->>>>>>> copy-enhanced-ui-chatbot-changes
                 Cookies.set("loggedIn", true, { expires: 1 });
     
                 setUserId(data.userId);
@@ -93,21 +63,6 @@ const Login = () => {
             setMessage("Error processing server response.");
         }
     };
-<<<<<<< HEAD
-    
-
-    return (
-        <div style={styles.pageContainer}>
-            <div style={styles.container}>
-                <div style={styles.imageContainer}>
-                    <img src="80.png" alt="Login" style={styles.image} />
-                </div>
-                <div style={styles.formContainer}>
-                    <h2 style={styles.title}>Login</h2>
-                    {message && <p style={styles.message}>{message}</p>}
-                    <form onSubmit={handleLogin} style={styles.form}>
-                        <div style={styles.inputContainer}>
-=======
 
     const togglePasswordVisibility = () => {
         setShowPassword(!showPassword);
@@ -125,32 +80,11 @@ const Login = () => {
                     
                     <form onSubmit={handleLogin} className="auth-form">
                         <div className="input-group">
->>>>>>> copy-enhanced-ui-chatbot-changes
                             <input
                                 type="text"
                                 placeholder="Email"
                                 value={email}
                                 onChange={(e) => setEmail(e.target.value)}
-<<<<<<< HEAD
-                                style={styles.input}
-                            />
-                            {emailError && <p style={styles.error}>{emailError}</p>}
-                        </div>
-                        <div style={styles.inputContainer}>
-                            <input
-                                type="password"
-                                placeholder="Password"
-                                value={password}
-                                onChange={(e) => setPassword(e.target.value)}
-                                style={styles.input}
-                            />
-                            {passwordError && <p style={styles.error}>{passwordError}</p>}
-                        </div>
-                        <button type="submit" style={styles.button}>Login</button>
-                        <p style={{ marginTop: '10px' }}>
-                            Don't have an account? <Link to="/signup">Sign up</Link>
-                        </p>
-=======
                                 className="form-input"
                             />
                             {emailError && <p className="error-message">{emailError}</p>}
@@ -191,7 +125,6 @@ const Login = () => {
                         <div className="link-container">
                             Don't have an account? <Link to="/signup" className="auth-link">Sign up</Link>
                         </div>
->>>>>>> copy-enhanced-ui-chatbot-changes
                     </form>
                 </div>
             </div>
@@ -199,23 +132,4 @@ const Login = () => {
     );
 };
 
-<<<<<<< HEAD
-// Inline styles
-const styles = {
-    pageContainer: { backgroundColor: "WHITE", minHeight: "100vh", display: "flex", justifyContent: "center", alignItems: "center" },
-    container: { display: "flex", justifyContent: "center", alignItems: "center", padding: "20px", maxWidth: "800px", margin: "auto", border: "1px solid #ccc", borderRadius: "10px", boxShadow: "0 0 20px rgba(0,0,0,0.1)" },
-    imageContainer: { flex: "1", marginRight: "20px" },
-    image: { width: "100%", borderRadius: "10px" },
-    formContainer: { flex: "1", textAlign: "center" },
-    title: { color: "darkorange" },
-    form: { display: "flex", flexDirection: "column", gap: "10px" },
-    inputContainer: { textAlign: "left" },
-    input: { width: "100%", padding: "5px", borderRadius: "5px", border: "1px solid #ccc" },
-    button: { padding: "10px", backgroundColor: "darkorange", color: "white", borderRadius: "5px", cursor: "pointer", border: "none" },
-    error: { color: "red", fontSize: "12px", marginTop: "5px" },
-    message: { color: "green", fontSize: "14px" }
-};
-
-=======
->>>>>>> copy-enhanced-ui-chatbot-changes
 export default Login;
