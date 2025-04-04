@@ -1,4028 +1,919 @@
-Debug Log: Debug Log: Array
-(
-    [user_id] => 123
-    [id] => 90_90_Hamstring
-    [action] => add
-)
-Debug Log: Debug Log: Array
-(
-    [user_id] => 123
-    [id] => 3_4_Sit-Up
-    [action] => add
-)
-Received Raw Data: EMPTY
-Received Raw Data: EMPTY
-Decoded Data: 
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Flexibility Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Flexibility Program
-)
-
-Received Raw Data: {"program_name":"Beginner Flexibility Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Flexibility Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Flexibility Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Flexibility Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Flexibility Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Flexibility Program
-)
-
-Received Raw Data: {"program_name":"Beginner Flexibility Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Flexibility Program
-)
-
-Received Raw Data: {"program_name":"Beginner Flexibility Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Flexibility Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Flexibility Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Flexibility Program
-)
-
-Received Raw Data: {"program_name":"Beginner Flexibility Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Flexibility Program
-)
-
-Received Raw Data: {"program_name":"Beginner Flexibility Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Flexibility Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Flexibility Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Flexibility Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Flexibility Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Flexibility Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Flexibility Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Flexibility Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Flexibility Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Flexibility Program
-)
-
-Received Raw Data: {"program_name":"Beginner Flexibility Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Flexibility Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Flexibility Program"}
-Received Raw Data: EMPTY
-Decoded Data: Array
-(
-    [program_name] => Beginner Flexibility Program
-)
-
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Flexibility Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Flexibility Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Flexibility Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Flexibility Program
-)
-
-Received Raw Data: {"program_name":"Beginner Flexibility Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Flexibility Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Flexibility Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Flexibility Program
-)
-
-Received Raw Data: {"program_name":"Beginner Flexibility Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Flexibility Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Flexibility Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Flexibility Program
-)
-
-Received Raw Data: {"program_name":"Beginner Flexibility Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Flexibility Program
-)
-
-Received Raw Data: {"program_name":"Beginner Flexibility Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Flexibility Program
-)
-
-Received Raw Data: EMPTY
-Received Raw Data: EMPTY
-Decoded Data: 
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Flexibility Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Flexibility Program
-)
-
-Received Raw Data: {"program_name":"Beginner Flexibility Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Flexibility Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Flexibility Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Flexibility Program
-)
-
-Received Raw Data: {"program_name":"Beginner Flexibility Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Flexibility Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Flexibility Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Flexibility Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Flexibility Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Flexibility Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Flexibility Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Flexibility Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Flexibility Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Flexibility Program
-)
-
-Received Raw Data: EMPTY
-Received Raw Data: EMPTY
-Decoded Data: 
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Flexibility Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Flexibility Program
-)
-
-Received Raw Data: {"program_name":"Beginner Flexibility Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Flexibility Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Flexibility Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Flexibility Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Flexibility Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Flexibility Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-ta: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Flexibility Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Flexibility Program
-)
-
-Received Raw Data: {"program_name":"Beginner Flexibility Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Flexibility Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Flexibility Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Flexibility Program
-)
-
-Received Raw Data: {"program_name":"Beginner Flexibility Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Flexibility Program
-)
-
-Received Raw Data: {"program_name":"Beginner Flexibility Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Flexibility Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Flexibility Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Flexibility Program
-)
-
-Received Raw Data: {"program_name":"Beginner Flexibility Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Flexibility Program
-)
-
-Decoded Data: Array
-(
-    [program_name] => Beginner Flexibility Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Flexibility Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Flexibility Program
-)
-
-Received Raw Data: {"program_name":"Beginner Flexibility Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Flexibility Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Flexibility Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Flexibility Program
-)
-
-Received Raw Data: {"program_name":"Beginner Flexibility Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Flexibility Program
-)
-
-Received Raw Data: {"program_name":"Beginner Flexibility Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Flexibility Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Flexibility Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Flexibility Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Flexibility Program"}
-Received Raw Data: EMPTY
-Decoded Data: Array
-(
-    [program_name] => Beginner Flexibility Program
-)
-
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Flexibility Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Flexibility Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Flexibility Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Flexibility Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Flexibility Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Flexibility Program
-)
-
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Flexibility Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Flexibility Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Flexibility Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Flexibility Program
-)
-
-Received Raw Data: {"program_name":"Beginner Flexibility Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Flexibility Program
-)
-
-Received Raw Data: {"program_name":"Beginner Flexibility Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Flexibility Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Flexibility Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Flexibility Program
-)
-
-Received Raw Data: {"program_name":"Beginner Flexibility Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Flexibility Program
-)
-
-Received Raw Data: EMPTY
-Received Raw Data: EMPTY
-Decoded Data: 
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Flexibility Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Flexibility Program
-)
-
-Received Raw Data: {"program_name":"Beginner Flexibility Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Flexibility Program
-)
-
-Received Raw Data: {"program_name":"Beginner Flexibility Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Flexibility Program
-)
-
-Received Raw Data: {"program_name":"Beginner Flexibility Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Flexibility Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Received Raw Data: EMPTY
-Decoded Data: 
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Received Raw Data: EMPTY
-Decoded Data: 
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Received Raw Data: EMPTY
-Decoded Data: 
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Received Raw Data: EMPTY
-Decoded Data: 
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: {"program_name":"Beginner Flexibility Program"}
-Received Raw Data: {"program_name":"Beginner Flexibility Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Flexibility Program
-)
-
-Decoded Data: Array
-(
-    [program_name] => Beginner Flexibility Program
-)
-
-Received Raw Data: EMPTY
-Received Raw Data: EMPTY
-Decoded Data: 
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Flexibility Program"}
-Received Raw Data: {"program_name":"Beginner Flexibility Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Flexibility Program
-)
-
-Decoded Data: Array
-(
-    [program_name] => Beginner Flexibility Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Received Raw Data: EMPTY
-Decoded Data: 
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Error: Missing email or password
-Received Raw Data: {"email":"maryaam@gmail.com","password":"12345678Aa."}
-Decoded Data: Array
-(
-    [email] => maryaam@gmail.com
-    [password] => 12345678Aa.
-)
-
-Sanitized Email: maryaam@gmail.com
-User found: Array
-(
-    [user_id] => 123
-    [email] => maryaam@gmail.com
-    [password_hash] => $2y$10$KdGBksHczfDJUAqj6s/KDOfhEotnpZ3WdmFlLupwhFQcGVmiOsZ3i
-    [role] => user
-)
-
-Password verified
-Login successful for user ID: 123
-Response Sent: {"success":true,"role":"user","userId":123,"message":"Login successful"}
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Flexibility Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Flexibility Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Flexibility Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Flexibility Program
-)
-
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-ogram
-)
-
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Error: Missing email or password
-Received Raw Data: {"email":"maryaam@gmail.com","password":"12345678Aa."}
-Decoded Data: Array
-(
-    [email] => maryaam@gmail.com
-    [password] => 12345678Aa.
-)
-
-Sanitized Email: maryaam@gmail.com
-User found: Array
-(
-    [user_id] => 123
-    [email] => maryaam@gmail.com
-    [password_hash] => $2y$10$KdGBksHczfDJUAqj6s/KDOfhEotnpZ3WdmFlLupwhFQcGVmiOsZ3i
-    [role] => user
-)
-
-Password verified
-Login successful for user ID: 123
-Response Sent: {"success":true,"role":"user","userId":123,"message":"Login successful"}
-Received Raw Data: EMPTY
-Received Raw Data: EMPTY
-Decoded Data: 
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: EMPTY
-Received Raw Data: EMPTY
-Decoded Data: 
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Received Raw Data: EMPTY
- [program_name] => Beginner Endurance Program
-)
-
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Flexibility Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Flexibility Program
-)
-
-Received Raw Data: {"program_name":"Beginner Flexibility Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Flexibility Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Flexibility Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Flexibility Program
-)
-
-Received Raw Data: {"program_name":"Beginner Flexibility Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Flexibility Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Flexibility Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Flexibility Program
-)
-
-Received Raw Data: {"program_name":"Beginner Flexibility Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Flexibility Program
-)
-
-Received Raw Data: EMPTY
-Received Raw Data: EMPTY
-Decoded Data: 
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Flexibility Program"}
-Received Raw Data: {"program_name":"Beginner Flexibility Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Flexibility Program
-)
-
-Decoded Data: Array
-(
-    [program_name] => Beginner Flexibility Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Flexibility Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Flexibility Program
-)
-
-Received Raw Data: {"program_name":"Beginner Flexibility Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Flexibility Program
-)
-
-Received Raw Data: EMPTY
-Received Raw Data: EMPTY
-Decoded Data: 
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Flexibility Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Flexibility Program
-)
-
-Received Raw Data: {"program_name":"Beginner Flexibility Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Flexibility Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-ta: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Flexibility Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Flexibility Program
-)
-
-Received Raw Data: {"program_name":"Beginner Flexibility Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Flexibility Program
-)
-
-Received Raw Data: EMPTY
-Received Raw Data: EMPTY
-Decoded Data: 
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Flexibility Program"}
-Received Raw Data: {"program_name":"Beginner Flexibility Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Flexibility Program
-)
-
-Decoded Data: Array
-(
-    [program_name] => Beginner Flexibility Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Flexibility Program"}
-Received Raw Data: {"program_name":"Beginner Flexibility Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Flexibility Program
-)
-
-Decoded Data: Array
-(
-    [program_name] => Beginner Flexibility Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Flexibility Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Flexibility Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Flexibility Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Flexibility Program
-)
-
-Received Raw Data: {"program_name":"Beginner Flexibility Program"}
-Received Raw Data: {"program_name":"Beginner Flexibility Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Flexibility Program
-)
-
-Decoded Data: Array
-(
-    [program_name] => Beginner Flexibility Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Flexibility Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Flexibility Program
-)
-
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Flexibility Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Flexibility Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Flexibility Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Flexibility Program
-)
-
-Received Raw Data: {"program_name":"Beginner Flexibility Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Flexibility Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Flexibility Program"}
-Received Raw Data: {"program_name":"Beginner Flexibility Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Flexibility Program
-)
-
-Decoded Data: Array
-(
-    [program_name] => Beginner Flexibility Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Received Raw Data: EMPTY
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Received Raw Data: EMPTY
-Decoded Data: 
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-ta: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Received Raw Data: EMPTY
-Decoded Data: 
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: EMPTY
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: EMPTY
-ram_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Received Raw Data: EMPTY
-Decoded Data: 
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: EMPTY
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: 
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Received Raw Data: EMPTY
-Decoded Data: 
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Received Raw Data: EMPTY
-Decoded Data: 
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-ogram
-)
-
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Received Raw Data: EMPTY
-Decoded Data: 
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Debug Log: Debug Log: Array
-(
-    [user_id] => 123
-    [id] => 3_4_Sit-Up
-    [action] => add
-)
-Debug Log: Array
-(
-    [user_id] => 123
-    [id] => 3_4_Sit-Up
-    [action] => add
-)
-Received Raw Data: EMPTY
-Decoded Data: 
-Error: Missing email or password
-Received Raw Data: {"email":"maryaam@gmail.com","password":"12345678Aa."}
-Decoded Data: Array
-(
-    [email] => maryaam@gmail.com
-    [password] => 12345678Aa.
-)
-
-Sanitized Email: maryaam@gmail.com
-User found: Array
-(
-    [user_id] => 123
-    [email] => maryaam@gmail.com
-    [password_hash] => $2y$10$KdGBksHczfDJUAqj6s/KDOfhEotnpZ3WdmFlLupwhFQcGVmiOsZ3i
-    [role] => user
-)
-
-Password verified
-Login successful for user ID: 123
-Response Sent: {"success":true,"role":"user","userId":123,"message":"Login successful"}
-Debug Log: Debug Log: Array
-(
-    [user_id] => 123
-    [id] => 3_4_Sit-Up
-    [action] => add
-)
-Debug Log: Debug Log: Array
-(
-    [user_id] => 123
-    [id] => 90_90_Hamstring
-    [action] => add
-)
-Debug Log: Debug Log: Array
-(
-    [user_id] => 123
-    [id] => Alternating_Cable_Shoulder_Press
-    [action] => add
-)
-Debug Log: Array
-(
-    [user_id] => 123
-    [id] => Alternating_Cable_Shoulder_Press
-    [action] => remove
-)
-Debug Log: Array
-(
-    [user_id] => 123
-    [id] => Alternating_Cable_Shoulder_Press
-    [action] => add
-)
-Received Raw Data: EMPTY
-Decoded Data: 
-Error: Missing email or password
-Received Raw Data: {"email":"maryaam@gmail.com","password":"12345678Aa."}
-Decoded Data: Array
-(
-    [email] => maryaam@gmail.com
-    [password] => 12345678Aa.
-)
-
-Sanitized Email: maryaam@gmail.com
-User found: Array
-(
-    [user_id] => 123
-    [email] => maryaam@gmail.com
-    [password_hash] => $2y$10$KdGBksHczfDJUAqj6s/KDOfhEotnpZ3WdmFlLupwhFQcGVmiOsZ3i
-    [role] => user
-)
-
-Password verified
-Login successful for user ID: 123
-Response Sent: {"success":true,"role":"user","userId":123,"message":"Login successful"}
-Debug Log: Debug Log: Array
-(
-    [user_id] => 123
-    [id] => 3_4_Sit-Up
-    [action] => add
-)
-Debug Log: Array
-(
-    [user_id] => 123
-    [id] => 3_4_Sit-Up
-    [action] => remove
-)
-Debug Log: Debug Log: Array
-(
-    [user_id] => 123
-    [id] => 3_4_Sit-Up
-    [action] => add
-)
-Debug Log: Array
-(
-    [user_id] => 123
-    [id] => 3_4_Sit-Up
-    [action] => remove
-)
-Debug Log: Array
-(
-    [user_id] => 123
-    [id] => 3_4_Sit-Up
-    [action] => add
-)
-Debug Log: Array
-(
-    [user_id] => 123
-    [id] => 3_4_Sit-Up
-    [action] => remove
-)
-Debug Log: Array
-(
-    [user_id] => 123
-    [id] => 3_4_Sit-Up
-    [action] => add
-)
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Endurance Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Endurance Program
-)
-
-Debug Log: Debug Log: Array
-(
-    [user_id] => 123
-    [id] => 3_4_Sit-Up
-    [action] => add
-)
-Debug Log: Array
-(
-    [user_id] => 123
-    [id] => 3_4_Sit-Up
-    [action] => add
-)
-Debug Log: Array
-(
-    [user_id] => 123
-    [id] => 3_4_Sit-Up
-    [action] => add
-)
-Debug Log: Array
-(
-    [user_id] => 123
-    [id] => 3_4_Sit-Up
-    [action] => add
-)
-Debug Log: Array
-(
-    [user_id] => 123
-    [id] => 3_4_Sit-Up
-    [action] => add
-)
-Debug Log: Array
-(
-    [user_id] => 123
-    [id] => 3_4_Sit-Up
-    [action] => add
-)
-Debug Log: Debug Log: Array
-(
-    [user_id] => 123
-    [id] => 3_4_Sit-Up
-    [action] => add
-)
-Debug Log: Array
-(
-    [user_id] => 123
-    [id] => 3_4_Sit-Up
-    [action] => add
-)
-Debug Log: Array
-(
-    [user_id] => 123
-    [id] => 3_4_Sit-Up
-    [action] => add
-)
-Debug Log: Array
-(
-    [user_id] => 123
-    [id] => 3_4_Sit-Up
-    [action] => add
-)
-Debug Log: Array
-(
-    [user_id] => 123
-    [id] => 3_4_Sit-Up
-    [action] => add
-)
-Debug Log: Array
-(
-    [user_id] => 123
-    [id] => 3_4_Sit-Up
-    [action] => add
-)
-Debug Log: Array
-(
-    [user_id] => 123
-    [id] => 3_4_Sit-Up
-    [action] => add
-)
-Debug Log: Array
-(
-    [user_id] => 123
-    [id] => 3_4_Sit-Up
-    [action] => add
-)
-Debug Log: Array
-(
-    [user_id] => 123
-    [id] => 3_4_Sit-Up
-    [action] => add
-)
-Debug Log: Array
-(
-    [user_id] => 123
-    [id] => 3_4_Sit-Up
-    [action] => add
-)
-Debug Log: Array
-(
-    [user_id] => 123
-    [id] => 3_4_Sit-Up
-    [action] => add
-)
-Debug Log: Debug Log: Array
-(
-    [user_id] => 123
-    [id] => 3_4_Sit-Up
-    [action] => remove
-)
-Debug Log: Array
-(
-    [user_id] => 123
-    [id] => 3_4_Sit-Up
-    [action] => add
-)
-Debug Log: Debug Log: Array
-(
-    [user_id] => 123
-    [id] => 3_4_Sit-Up
-    [action] => remove
-)
-Debug Log: Array
-(
-    [user_id] => 123
-    [id] => 3_4_Sit-Up
-    [action] => add
-)
-Debug Log: Debug Log: Array
-(
-    [user_id] => 123
-    [id] => Alternating_Cable_Shoulder_Press
-    [action] => add
-)
-Debug Log: Array
-(
-    [user_id] => 123
-    [id] => Alternating_Cable_Shoulder_Press
-    [action] => add
-)
-Debug Log: Debug Log: Array
-(
-    [user_id] => 123
-    [id] => 3_4_Sit-Up
-    [action] => add
-)
-Debug Log: Array
-(
-    [user_id] => 123
-    [id] => 3_4_Sit-Up
-    [action] => add
-)
-Debug Log: Debug Log: Array
-(
-    [user_id] => 123
-    [id] => 3_4_Sit-Up
-    [action] => add
-)
-Debug Log: Debug Log: Array
-(
-    [user_id] => 123
-    [id] => 3_4_Sit-Up
-    [action] => remove
-)
-Debug Log: Array
-(
-    [user_id] => 123
-    [id] => 3_4_Sit-Up
-    [action] => add
-)
-Debug Log: Array
-(
-    [user_id] => 123
-    [id] => 3_4_Sit-Up
-    [action] => add
-)
-Debug Log: Debug Log: Array
-(
-    [user_id] => 123
-    [id] => 3_4_Sit-Up
-    [action] => add
-)
-Debug Log: Array
-(
-    [user_id] => 123
-    [id] => 3_4_Sit-Up
-    [action] => add
-)
-Debug Log: Debug Log: Array
-(
-    [user_id] => 123
-    [id] => 3_4_Sit-Up
-    [action] => remove
-)
-Debug Log: Array
-(
-    [user_id] => 123
-    [id] => 90_90_Hamstring
-    [action] => add
-)
-Debug Log: Debug Log: Array
-(
-    [user_id] => 123
-    [id] => 90_90_Hamstring
-    [action] => add
-)
-Debug Log: Debug Log: Array
-(
-    [user_id] => 123
-    [id] => 90_90_Hamstring
-    [action] => add
-)
-Debug Log: Array
-(
-    [user_id] => 123
-    [id] => 90_90_Hamstring
-    [action] => remove
-)
-Debug Log: Debug Log: Array
-(
-    [user_id] => 123
-    [id] => 3_4_Sit-Up
-    [action] => add
-)
-Debug Log: Debug Log: Array
-(
-    [user_id] => 123
-    [id] => 3_4_Sit-Up
-    [action] => add
-)
-Debug Log: Array
-(
-    [user_id] => 123
-    [id] => 3_4_Sit-Up
-    [action] => remove
-)
-Debug Log: Array
-(
-    [user_id] => 123
-    [id] => Alternating_Cable_Shoulder_Press
-    [action] => remove
-)
-Debug Log: Debug Log: Array
-(
-    [user_id] => 123
-    [id] => Jogging_Treadmill
-    [action] => remove
-)
-Debug Log: Array
-(
-    [user_id] => 123
-    [id] => 3_4_Sit-Up
-    [action] => add
-)
-Debug Log: Debug Log: Array
-(
-    [user_id] => 123
-    [id] => 3_4_Sit-Up
-    [action] => add
-)
-Debug Log: Array
-(
-    [user_id] => 123
-    [id] => 3_4_Sit-Up
-    [action] => add
-)
-Debug Log: Array
-(
-    [user_id] => 123
-    [id] => 3_4_Sit-Up
-    [action] => add
-)
-Debug Log: Debug Log: Array
-(
-    [user_id] => 123
-    [id] => Ab_Crunch_Machine
-    [action] => add
-)
-Debug Log: Debug Log: Array
-(
-    [user_id] => 123
-    [id] => Ab_Roller
-    [action] => add
-)
-Debug Log: Debug Log: Array
-(
-    [user_id] => 123
-    [id] => 3_4_Sit-Up
-    [action] => add
-)
-Debug Log: Debug Log: Array
-(
-    [user_id] => 123
-    [id] => Backward_Drag
-    [action] => add
-)
-Debug Log: Array
-(
-    [user_id] => 123
-    [id] => Backward_Drag
-    [action] => add
-)
-Debug Log: Debug Log: Array
-(
-    [user_id] => 123
-    [id] => Backward_Drag
-    [action] => add
-)
-Debug Log: Debug Log: Array
-(
-    [user_id] => 123
-    [id] => Axle_Deadlift
-    [action] => add
-)
-Debug Log: Debug Log: Array
-(
-    [user_id] => 123
-    [id] => Alternate_Hammer_Curl
-    [action] => add
-)
-Debug Log: Debug Log: Array
-(
-    [user_id] => 123
-    [id] => Alternate_Hammer_Curl
-    [action] => add
-)
-Debug Log: Debug Log: Array
-(
-    [user_id] => 123
-    [id] => All_Fours_Quad_Stretch
-    [action] => add
-)
-Debug Log: Debug Log: Array
-(
-    [user_id] => 123
-    [id] => 3_4_Sit-Up
-    [action] => add
-)
-Debug Log: Debug Log: Array
-(
-    [user_id] => 123
-    [id] => Alternating_Kettlebell_Press
-    [action] => add
-)
-Debug Log: Debug Log: Array
-(
-    [user_id] => 123
-    [id] => 90_90_Hamstring
-    [action] => remove
-)
-Debug Log: Array
-(
-    [user_id] => 123
-    [id] => 90_90_Hamstring
-    [action] => add
-)
-Debug Log: Debug Log: Array
-(
-    [user_id] => 123
-    [id] => 90_90_Hamstring
-    [action] => remove
-)
-Debug Log: Debug Log: Array
-(
-    [user_id] => 123
-    [id] => 90_90_Hamstring
-    [action] => remove
-)
-Debug Log: Debug Log: Array
-(
-    [user_id] => 123
-    [id] => Backward_Medicine_Ball_Throw
-    [action] => add
-)
-Debug Log: Array
-(
-    [user_id] => 123
-    [id] => 3_4_Sit-Up
-    [action] => remove
-)
-Debug Log: Debug Log: Array
-(
-    [user_id] => 123
-    [id] => Ab_Crunch_Machine
-    [action] => remove
-)
-Debug Log: Array
-(
-    [user_id] => 123
-    [id] => Ab_Roller
-    [action] => remove
-)
-Debug Log: Array
-(
-    [user_id] => 123
-    [id] => All_Fours_Quad_Stretch
-    [action] => remove
-)
-Debug Log: Debug Log: Array
-(
-    [user_id] => 123
-    [id] => Alternate_Hammer_Curl
-    [action] => remove
-)
-Debug Log: Array
-(
-    [user_id] => 123
-    [id] => Alternating_Kettlebell_Press
-    [action] => remove
-)
-Debug Log: Array
-(
-    [user_id] => 123
-    [id] => Axle_Deadlift
-    [action] => remove
-)
-Debug Log: Array
-(
-    [user_id] => 123
-    [id] => Backward_Drag
-    [action] => remove
-)
-Debug Log: Array
-(
-    [user_id] => 123
-    [id] => Backward_Medicine_Ball_Throw
-    [action] => remove
-)
-Debug Log: Debug Log: Array
-(
-    [user_id] => 123
-    [id] => 3_4_Sit-Up
-    [action] => remove
-)
-Debug Log: Array
-(
-    [user_id] => 123
-    [id] => 3_4_Sit-Up
-    [action] => add
-)
-Debug Log: Debug Log: Array
-(
-    [user_id] => 123
-    [id] => 3_4_Sit-Up
-    [action] => remove
-)
-Debug Log: Debug Log: Array
-(
-    [user_id] => 123
-    [id] => 90_90_Hamstring
-    [action] => add
-)
-Debug Log: Debug Log: Array
-(
-    [user_id] => 123
-    [id] => 90_90_Hamstring
-    [action] => remove
-)
-Debug Log: Debug Log: Array
-(
-    [user_id] => 123
-    [id] => 3_4_Sit-Up
-    [action] => remove
-)
-Debug Log: Debug Log: Array
-(
-    [user_id] => 123
-    [id] => 3_4_Sit-Up
-    [action] => add
-)
-Debug Log: Debug Log: Array
-(
-    [user_id] => 123
-    [id] => 3_4_Sit-Up
-    [action] => remove
-)
-Debug Log: Debug Log: Array
-(
-    [user_id] => 123
-    [id] => 3_4_Sit-Up
-    [action] => add
-)
-Received Raw Data: EMPTY
-Decoded Data: 
-Error: Missing email or password
-Received Raw Data: {"email":"test@gmail.com","password":".12345678Aa"}
-Decoded Data: Array
-(
-    [email] => test@gmail.com
-    [password] => .12345678Aa
-)
-
-Sanitized Email: test@gmail.com
-User found: Array
-(
-    [user_id] => 113
-    [email] => test@gmail.com
-    [password_hash] => $2y$10$gMluRbi6yP1FITQmWMHJK.nT7X0qtNQk4GrCIPIXUVbylK3GCqWXu
-    [role] => user
-)
-
-Error: Password mismatch
-Received Raw Data: {"email":"test@gmail.com","password":".12345678Aa"}
-Decoded Data: Array
-(
-    [email] => test@gmail.com
-    [password] => .12345678Aa
-)
-
-Sanitized Email: test@gmail.com
-User found: Array
-(
-    [user_id] => 113
-    [email] => test@gmail.com
-    [password_hash] => $2y$10$gMluRbi6yP1FITQmWMHJK.nT7X0qtNQk4GrCIPIXUVbylK3GCqWXu
-    [role] => user
-)
-
-Error: Password mismatch
-Received Raw Data: EMPTY
-Decoded Data: 
-Error: Missing email or password
-Received Raw Data: {"email":"test@gmail.com","password":".12345678Aa"}
-Decoded Data: Array
-(
-    [email] => test@gmail.com
-    [password] => .12345678Aa
-)
-
-Sanitized Email: test@gmail.com
-User found: Array
-(
-    [user_id] => 113
-    [email] => test@gmail.com
-    [password_hash] => $2y$10$gMluRbi6yP1FITQmWMHJK.nT7X0qtNQk4GrCIPIXUVbylK3GCqWXu
-    [role] => user
-)
-
-Error: Password mismatch
-Received Raw Data: EMPTY
-Decoded Data: 
-Error: Missing email or password
-Received Raw Data: {"email":"test@gmail.com","password":"12345678Aa."}
-Decoded Data: Array
-(
-    [email] => test@gmail.com
-    [password] => 12345678Aa.
-)
-
-Sanitized Email: test@gmail.com
-User found: Array
-(
-    [user_id] => 113
-    [email] => test@gmail.com
-    [password_hash] => $2y$10$gMluRbi6yP1FITQmWMHJK.nT7X0qtNQk4GrCIPIXUVbylK3GCqWXu
-    [role] => user
-)
-
-Password verified
-Login successful for user ID: 113
-Response Sent: {"success":true,"role":"user","userId":113,"message":"Login successful"}
-Received Raw Data: EMPTY
-Decoded Data: 
-Error: Missing email or password
-Received Raw Data: {"email":"test@gmail.com","password":".12345678Aa."}
-Decoded Data: Array
-(
-    [email] => test@gmail.com
-    [password] => .12345678Aa.
-)
-
-Sanitized Email: test@gmail.com
-User found: Array
-(
-    [user_id] => 113
-    [email] => test@gmail.com
-    [password_hash] => $2y$10$gMluRbi6yP1FITQmWMHJK.nT7X0qtNQk4GrCIPIXUVbylK3GCqWXu
-    [role] => user
-)
-
-Error: Password mismatch
-Received Raw Data: {"email":"test@gmail.com","password":"12345678Aa."}
-Decoded Data: Array
-(
-    [email] => test@gmail.com
-    [password] => 12345678Aa.
-)
-
-Sanitized Email: test@gmail.com
-User found: Array
-(
-    [user_id] => 113
-    [email] => test@gmail.com
-    [password_hash] => $2y$10$gMluRbi6yP1FITQmWMHJK.nT7X0qtNQk4GrCIPIXUVbylK3GCqWXu
-    [role] => user
-)
-
-Password verified
-Login successful for user ID: 113
-Response Sent: {"success":true,"role":"user","userId":113,"message":"Login successful"}
-Received Raw Data: EMPTY
-Received Raw Data: EMPTY
-Decoded Data: 
-Decoded Data: 
-Received Raw Data: {"program_name":"Expert Power & Strength Program"}
-Decoded Data: Array
-(
-    [program_name] => Expert Power & Strength Program
-)
-
-Decoded Data: Array
-(
-    [program_name] => Expert Power & Strength Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Error: Missing email or password
-Received Raw Data: {"email":"test@gmail.com","password":".12345678Aa."}
-Decoded Data: Array
-(
-    [email] => test@gmail.com
-    [password] => .12345678Aa.
-)
-
-Sanitized Email: test@gmail.com
-User found: Array
-(
-    [user_id] => 113
-    [email] => test@gmail.com
-    [password_hash] => $2y$10$gMluRbi6yP1FITQmWMHJK.nT7X0qtNQk4GrCIPIXUVbylK3GCqWXu
-    [role] => user
-)
-
-Error: Password mismatch
-Received Raw Data: {"email":"test@gmail.com","password":"12345678Aa."}
-Decoded Data: Array
-(
-    [email] => test@gmail.com
-    [password] => 12345678Aa.
-)
-
-Sanitized Email: test@gmail.com
-User found: Array
-(
-    [user_id] => 113
-    [email] => test@gmail.com
-    [password_hash] => $2y$10$gMluRbi6yP1FITQmWMHJK.nT7X0qtNQk4GrCIPIXUVbylK3GCqWXu
-    [role] => user
-)
-
-Password verified
-Login successful for user ID: 113
-Response Sent: {"success":true,"role":"user","userId":113,"message":"Login successful"}
+Received Raw Data: Array
+Received Raw Data: {"user_id":"107","food_item":"Asian Pear","amount_grams":23,"cals":9.66,"kj":40.41744}
+Received Raw Data: {"user_id":"107","food_item":"Asian Pear","amount_grams":23,"cals":9.66,"kj":40.41744}
+Received Raw Data: null
+Received Raw Data: null
+Received Raw Data: null
+Received Raw Data: {"user_id":"107","food_item":"Asian Pear","amount_grams":23,"cals":9.66,"kj":40.41744}
+Received Raw Data: null
+Received Raw Data: {"user_id":"107","food_item":"Asian Pear","amount_grams":23,"cals":9.66,"kj":40.41744}
+Received Raw Data: {"user_id":"107","food_item":"Asian Pear","amount_grams":23,"cals":9.66,"kj":40.41744}
+Received Raw Data: {"user_id":"107","food_item":"Asian Pear","amount_grams":23,"cals":9.66,"kj":40.41744}
+Received Raw Data: null
+Received Raw Data: null
+Received Raw Data: {"user_id":"107","food_item":"Asian Pear","amount_grams":23,"cals":9.66,"kj":40.41744}
+Received Raw Data: null
+Received Raw Data: {"user_id":"107","food_item":"Asian Pear","amount_grams":23,"cals":9.66,"kj":40.41744}
+Received Raw Data: {"user_id":"107","food_item":"Pear Nectar","amount_grams":21,"cals":12.6,"kj":52.7184}
+Received Raw Data: null
+Raw input: 
+Decoded JSON: null
+Raw input: 
+Decoded JSON: null
+Raw input: 
+Decoded JSON: null
+Raw input: 
+Decoded JSON: null
+Raw input: 
+Decoded JSON: null
+Raw input: 
+Decoded JSON: null
+Raw input: 
+Decoded JSON: null
+Raw input: 
+Decoded JSON: null
+Raw input: 
+Decoded JSON: null
+Raw input: 
+Decoded JSON: null
+Raw input: 
+Decoded JSON: null
+Raw input: 
+Decoded JSON: null
+Raw input: 
+Decoded JSON: null
+Raw input: 
+Decoded JSON: null
+Raw input: 
+Decoded JSON: null
+Raw input: 
+Decoded JSON: null
+Received Raw Data: {"user_id":"107","food_item":"Canned Crushed Pineapple","amount_grams":234,"cals":124.02,"kj":518.89968}
+Raw input: 
+Decoded JSON: null
+Raw input: 
+Decoded JSON: null
+Raw input: 
+Decoded JSON: null
+Raw input: 
+Decoded JSON: null
+Raw input: 
+Decoded JSON: null
+Raw input: 
+Decoded JSON: null
+Raw input: 
+Decoded JSON: null
+Raw input: 
+Decoded JSON: null
+Raw input: 
+Decoded JSON: null
+Raw input: 
+Decoded JSON: null
+Raw input: 
+Decoded JSON: null
+Raw input: 
+Decoded JSON: null
+Raw input: 
+Decoded JSON: null
+Raw input: 
+Decoded JSON: null
+Raw input: 
+Decoded JSON: null
+Raw input: 
+Decoded JSON: null
+Raw input: 
+Raw input: 
+Raw input: 
+Raw input: 
+Raw input: 
+Raw input: 
+Raw input: 
+Raw input: 
+Raw input: 
+Raw input: 
+Raw input: Array
+Raw input: Array
+Raw input: Array
+Raw input: Array
+Raw input: 
+Raw input: Array
+Raw input: Array
+Raw input: Array
+Raw input: Array
+Raw input: Array
+Raw input: Array
+Raw input: Array
+Raw input: Array
+Raw input: Array
+Raw input: Array
+Raw input: Array
+Raw input: Array
+Raw input: Array
+Raw input: Array
+Raw input: Array
+Raw input: Array
+Raw input: 
+Raw input: 
+Raw input: 
+Raw input: 
+Raw input: 
+Raw input: 
+Fetched user_id: 107
+Fetched user_id: 107
+Fetched user_id: 
+Fetched user_id: 
+Fetched user_id: 
+Fetched user_id: 107
+Fetched user_id: 107
+Fetched user_id: 107
+Fetched user_id: 107
+Fetched user_id: 107
+Fetched user_id: 107
+Fetched user_id: 107
+Fetched user_id: 107
+Fetched user_id: 107
+Fetched user_id: 107
+Fetched user_id: 107
+Fetched user_id: 107
+Fetched user_id: 107
+Fetched user_id: 107
+Fetched user_id: 107
+Fetched user_id: 107
+Fetched user_id: 107
+Fetched user_id: 107
+Fetched user_id: 107
+Fetched user_id: 107
+Fetched user_id: 107
+Fetched user_id: 107
+Fetched user_id: 107
+Fetched user_id: 107
+Fetched user_id: 107
+Fetched user_id: 107
+Fetched user_id: 107
+Fetched user_id: 107
+Fetched user_id: 107
+Fetched user_id: 107
+Fetched user_id: 107
+Fetched user_id: 107
+RAW: 
+JSON: null
+RAW: 
+JSON: null
+RAW: 
+JSON: null
+RAW: 
+JSON: null
+Fetched user_id: 107
+Fetched user_id: 107
+RAW: 
+JSON: null
+GET: {"user_id":"107"}
+Fetched user_id: 107
+Fetched user_id: 107
+Fetched user_id: 107
+Fetched user_id: 107
+Fetched user_id: 107
+Fetched user_id: 107
+Fetched user_id: 107
+Fetched user_id: 107
+Fetched user_id: 118
+Fetched user_id: 118
+GET: {"user_id":"118"}
+GET: {"user_id":"118"}
+GET: {"user_id":"118"}
+Fetched user_id: 107
+Fetched user_id: 107
+Fetched user_id: 107
+Fetched user_id: 107
+Fetched user_id: 107
+Fetched user_id: 107
+Fetched user_id: 107
+Fetched user_id: 107
+Fetched user_id: 107
+Fetched user_id: 107
+Fetched user_id: 107
+Fetched user_id: 107
+Fetched user_id: 107
+Fetched user_id: 107
+Fetched user_id: 107
+Fetched user_id: 107
+Fetched user_id: 107
+Fetched user_id: 107
+Fetched user_id: 107
+Fetched user_id: 107
+GET: {"user_id":"107"}
+Fetched user_id: 107
+Fetched user_id: 107
+Fetched user_id: 107
+Fetched user_id: 107
+Fetched user_id: 107
+Fetched user_id: 107
+Fetched user_id: 107
+Fetched user_id: 107
+Fetched user_id: 107
+Fetched user_id: 107
+GET: {"user_id":"107"}
+Fetched user_id: 107
+Fetched user_id: 107
+Fetched user_id: 107
+Fetched user_id: 107
+Fetched user_id: 107
+GET: {"user_id":"107"}
+Fetched user_id: 107
+Fetched user_id: 107
+Fetched user_id: 107
+Fetched user_id: 107
+Fetched user_id: 107
+Fetched user_id: 107
+Fetched user_id: 107
+Fetched user_id: 107
+GET: {"user_id":"107"}
+Fetched user_id: 107
+Fetched user_id: 107
+Fetched user_id: 107
+Fetched user_id: 107
+Fetched user_id: 107
+Fetched user_id: 118
+Fetched user_id: 118
+Fetched user_id: 118
+Fetched user_id: 118
+Fetched user_id: 107
+Fetched user_id: 118
+Fetched user_id: 118
+Fetched user_id: 118
+Fetched user_id: 107
+Fetched user_id: 118
+Fetched user_id: 107
+Fetched user_id: 107
+Fetched user_id: 107
+Fetched user_id: 107
+Fetched user_id: 107
+Fetched user_id: 118
+Fetched user_id: 107
+Fetched user_id: 107
+GET: {"user_id":"107"}
+Fetched user_id: 107
+Fetched user_id: 107
+Fetched user_id: 107
+Fetched user_id: 107
+Fetched user_id: 107
+Fetched user_id: 107
+Fetched user_id: 107
+Fetched user_id: 107
+Fetched user_id: 107
+Fetched user_id: 107
+Fetched user_id: 107
+Fetched user_id: 107
+Fetched user_id: 107
+Fetched user_id: 107
+Fetched user_id: 107
+Fetched user_id: 107
+GET: {"user_id":"107"}
+GET: {"user_id":"107"}
+GET: {"user_id":"107"}
+Fetched user_id: 107
+Fetched user_id: 107
+GET: []
+GET: {"user_id":"107","created_at":"2025-04-03 20:25:43"}
+GET: {"user_id":"107","created_at":"2025-04-03 20:25:43"}
+GET: {"user_id":"107","created_at":"2025-04-03 20:25:43"}
+GET: []
+GET: []
+GET: []
+GET: {"user_id":"107","created_at":"2025-04-03 20:25:43"}
+GET: "107"
+GET: "2025-04-03 20:25:43"
+GET: "107"
+GET: "2025-04-03 20:25:43"
+GET: ""
+GET: ""
+GET: "107"
+GET: "2025-04-03 20:25:43"
+GET: ""
+GET: ""
+GET: "107"
+GET: "2025-04-03 20:25:43"
+Fetched user_id: 107
+Fetched user_id: 107
+GET: "107"
+GET: "2025-04-03 20:25:47"
+Fetched user_id: 107
+Fetched user_id: 107
+Fetched user_id: 107
+Fetched user_id: 107
+Fetched user_id: 107
+Fetched user_id: 107
+GET: "107"
+GET: "2025-04-03 20:23:18"
+Fetched user_id: 107
+GET: "107"
+GET: "2025-04-03 20:23:23"
+Fetched user_id: 107
+Fetched user_id: 107
+Fetched user_id: 107
+Fetched user_id: 107
+Fetched user_id: 107
+Fetched user_id: 107
+Fetched user_id: 107
+Fetched user_id: 107
+Fetched user_id: 107
+Fetched user_id: 107
+Fetched user_id: 107
+GET: "107"
+GET: "2025-04-03 20:27:32"
+Fetched user_id: 107
+Fetched user_id: 107
+Fetched user_id: 107
+Fetched user_id: 107
+Fetched user_id: 107
+Fetched user_id: 107
+Fetched user_id: 107
+GET: "107"
+GET: "2025-04-03 20:27:50"
+Fetched user_id: 107
+Fetched user_id: 107
+Fetched user_id: 107
+Fetched user_id: 107
+Fetched user_id: 107
 Received Data: 
 Received Data: Array
 (
-    [dateOfBirth] => 2025-03-11
+    [dateOfBirth] => 2025-04-01
     [gender] => female
-    [weight] => 0
-    [height] => 0
+    [weight] => 234
+    [height] => 234
     [activityLevel] => low
-    [userId] => 124
+    [userId] => 107
 )
 
+Fetched user_id: 107
+Fetched user_id: 107
 Received Data: 
 Received Data: Array
 (
-    [dateOfBirth] => 2025-03-08
+    [dateOfBirth] => 2025-04-02
     [gender] => male
-    [weight] => 0
-    [height] => 0
+    [weight] => 33
+    [height] => 221
     [activityLevel] => low
-    [userId] => 124
-)
-
-Received Data: Array
-(
-    [dateOfBirth] => 
-    [gender] => 
-    [weight] => 0
-    [height] => 0
-    [activityLevel] => 
-    [userId] => 124
+    [userId] => 107
 )
 
 Received Data: 
 Received Data: Array
 (
-    [dateOfBirth] => 
-    [gender] => 
-    [weight] => 0
-    [height] => 0
-    [activityLevel] => 
-    [userId] => 124
+    [dateOfBirth] => 2025-04-02
+    [gender] => female
+    [weight] => 44
+    [height] => 144
+    [activityLevel] => low
+    [userId] => 107
 )
 
 Received Data: 
 Received Data: Array
 (
-    [dateOfBirth] => 2025-03-12
+    [dateOfBirth] => 2025-04-01
+    [gender] => female
+    [weight] => 33
+    [height] => 233
+    [activityLevel] => low
+    [userId] => 107
+)
+
+Received Data: 
+Received Data: Array
+(
+    [dateOfBirth] => 2025-04-03
     [gender] => male
-    [weight] => 0
-    [height] => 0
-    [activityLevel] => low
-    [userId] => 124
+    [weight] => 22
+    [height] => 123
+    [activityLevel] => medium
+    [userId] => 107
 )
 
 Received Data: 
 Received Data: Array
 (
-    [dateOfBirth] => 
-    [gender] => 
-    [weight] => 0
-    [height] => 0
-    [activityLevel] => 
-    [userId] => 124
+    [dateOfBirth] => 2025-04-02
+    [gender] => male
+    [weight] => 33
+    [height] => 123
+    [activityLevel] => low
+    [userId] => 107
 )
 
+Prepared SQL: 
+Received Data: 
+Received Data: Array
+(
+    [dateOfBirth] => 2025-04-01
+    [gender] => male
+    [weight] => 44
+    [height] => 245
+    [activityLevel] => low
+    [userId] => 107
+)
+
+Received Data: 
+Received Data: Array
+(
+    [dateOfBirth] => 2025-04-01
+    [gender] => male
+    [weight] => 80
+    [height] => 192
+    [activityLevel] => low
+    [userId] => 107
+)
+
+Received Data: 
+Received Data: Array
+(
+    [dateOfBirth] => 2025-04-02
+    [gender] => female
+    [weight] => 34
+    [height] => 133
+    [activityLevel] => low
+    [userId] => 107
+    [bmi] => 19.2
+)
+
+Received Data: 
+Received Data: Array
+(
+    [dateOfBirth] => 2025-04-02
+    [gender] => male
+    [weight] => 34
+    [height] => 123
+    [activityLevel] => low
+    [userId] => 107
+)
+
+Received Data: 
+Received Data: Array
+(
+    [dateOfBirth] => 2025-04-02
+    [gender] => female
+    [weight] => 34
+    [height] => 123
+    [activityLevel] => medium
+    [userId] => 107
+    [BMI] => 22.5
+)
+
+Received Data: 
+Received Data: Array
+(
+    [dateOfBirth] => 2025-04-02
+    [gender] => male
+    [weight] => 34
+    [height] => 223
+    [activityLevel] => low
+    [userId] => 107
+    [BMI] => 6.8
+)
+
+Received Data: 
+Received Data: Array
+(
+    [dateOfBirth] => 2025-04-02
+    [gender] => male
+    [weight] => 23
+    [height] => 123
+    [activityLevel] => low
+    [userId] => 107
+    [BMI] => 15.2
+)
+
+Received Data: 
+Received Data: Array
+(
+    [dateOfBirth] => 2025-04-02
+    [gender] => male
+    [weight] => 34
+    [height] => 123
+    [activityLevel] => low
+    [userId] => 107
+    [BMI] => 22.5
+)
+
+Received Data: 
+Received Data: Array
+(
+    [dateOfBirth] => 2025-04-02
+    [gender] => male
+    [weight] => 77
+    [height] => 123
+    [activityLevel] => low
+    [userId] => 107
+    [BMI] => 50.9
+)
+
+Received Data: 
+Received Data: 
+Received Data: 
+Received Data: Array
+(
+    [dateOfBirth] => 2025-04-02
+    [gender] => male
+    [weight] => 77
+    [height] => 123
+    [activityLevel] => low
+    [userId] => 107
+    [BMI] => 50.9
+)
+
+Received Data: 
+Received Data: 
+Received Data: 
+Received Data: 
+Received Data: 
+Received Data: 
+Received Data: Array
+(
+    [dateOfBirth] => 2025-04-02
+    [gender] => female
+    [weight] => 44
+    [height] => 244
+    [activityLevel] => low
+    [userId] => 107
+    [BMI] => 7.4
+)
+
+Received Data: 
+Received Data: 
+RAW INPUT:
+
+
+PARSED DATA:
+
+RAW INPUT:
+
+
+PARSED DATA:
+
+RAW INPUT:
+
+
+PARSED DATA:
+
+RAW INPUT:
+{"dateOfBirth":"2025-04-02","gender":"female","weight":"44","height":"244","activityLevel":"low","userId":"107","BMI":"7.4"}
+
+PARSED DATA:
+Array
+(
+    [dateOfBirth] => 2025-04-02
+    [gender] => female
+    [weight] => 44
+    [height] => 244
+    [activityLevel] => low
+    [userId] => 107
+    [BMI] => 7.4
+)
+
+RAW INPUT:
+
+
+PARSED DATA:
+
+DATA: 
+DATA: Array
+(
+    [dateOfBirth] => 2025-04-02
+    [gender] => female
+    [weight] => 44
+    [height] => 244
+    [activityLevel] => low
+    [userId] => 107
+    [BMI] => 7.4
+)
+
+DATA: 
+DATA: 
+DATA: Array
+(
+    [dateOfBirth] => 2025-04-01
+    [gender] => female
+    [weight] => 44
+    [height] => 244
+    [activityLevel] => low
+    [userId] => 107
+    [BMI] => 7.4
+)
+
+DATA: 
+DATA: 
+DATA: 
+DATA: 
+DATA: Array
+(
+    [dateOfBirth] => 2025-04-01
+    [gender] => female
+    [weight] => 44
+    [height] => 244
+    [activityLevel] => low
+    [userId] => 107
+    [BMI] => 7.4
+)
+
+DATA: 
+RAW INPUT:
+
+
+PARSED DATA:
+NULL
+
+KEYS:
+
+RAW INPUT:
+
+
+PARSED DATA:
+NULL
+
+KEYS:
+
+RAW INPUT:
+{"dateOfBirth":"2025-04-01","gender":"female","weight":"44","height":"244","activityLevel":"low","userId":"107","BMI":"7.4"}
+
+PARSED DATA:
+array (
+  'dateOfBirth' => '2025-04-01',
+  'gender' => 'female',
+  'weight' => '44',
+  'height' => '244',
+  'activityLevel' => 'low',
+  'userId' => '107',
+  'BMI' => '7.4',
+)
+
+KEYS:
+dateOfBirth, gender, weight, height, activityLevel, userId, BMI
+RAW INPUT:
+
+
+PARSED DATA:
+NULL
+
+KEYS:
+
+RAW INPUT:
+
+
+PARSED DATA:
+
+RAW INPUT:
+{"dateOfBirth":"2025-04-01","gender":"female","weight":"44","height":"244","activityLevel":"low","userId":"107","BMI":"7.4"}
+
+PARSED DATA:
+Array
+(
+    [dateOfBirth] => 2025-04-01
+    [gender] => female
+    [weight] => 44
+    [height] => 244
+    [activityLevel] => low
+    [userId] => 107
+    [BMI] => 7.4
+)
+
+RAW INPUT:
+
+
+PARSED DATA:
+
+RAW INPUT:
+{"dateOfBirth":"2025-04-02","gender":"male","weight":"123","height":"123","activityLevel":"low","userId":"107","BMI":"81.3"}
+
+PARSED DATA:
+Array
+(
+    [dateOfBirth] => 2025-04-02
+    [gender] => male
+    [weight] => 123
+    [height] => 123
+    [activityLevel] => low
+    [userId] => 107
+    [BMI] => 81.3
+)
+
+KEYS:
+dateOfBirth, gender, weight, height, activityLevel, userId, BMI
+RAW INPUT:
+
+
+PARSED DATA:
+
+KEYS:
+
+RAW INPUT:
+{"dateOfBirth":"2025-04-02","gender":"male","weight":"45","height":"123","activityLevel":"high","userId":"107","BMI":"29.7"}
+
+PARSED DATA:
+Array
+(
+    [dateOfBirth] => 2025-04-02
+    [gender] => male
+    [weight] => 45
+    [height] => 123
+    [activityLevel] => high
+    [userId] => 107
+    [BMI] => 29.7
+)
+
+KEYS:
+dateOfBirth, gender, weight, height, activityLevel, userId, BMI
+RAW INPUT:
+{"dateOfBirth":"2025-04-02","gender":"male","weight":"23","height":"234","activityLevel":"low","userId":"107","BMI":"4.2"}
+
+PARSED DATA:
+Array
+(
+    [dateOfBirth] => 2025-04-02
+    [gender] => male
+    [weight] => 23
+    [height] => 234
+    [activityLevel] => low
+    [userId] => 107
+    [BMI] => 4.2
+)
+
+KEYS:
+dateOfBirth, gender, weight, height, activityLevel, userId, BMI
+RAW INPUT:
+{"dateOfBirth":"2003-02-05","gender":"female","weight":"46","height":"157","activityLevel":"low","userId":"107","BMI":"18.7"}
+
+PARSED DATA:
+Array
+(
+    [dateOfBirth] => 2003-02-05
+    [gender] => female
+    [weight] => 46
+    [height] => 157
+    [activityLevel] => low
+    [userId] => 107
+    [BMI] => 18.7
+)
+
+KEYS:
+dateOfBirth, gender, weight, height, activityLevel, userId, BMI
+RAW INPUT:
+{"dateOfBirth":"2025-04-02","gender":"male","weight":"23","height":"134","activityLevel":"medium","userId":"107","BMI":"12.8"}
+
+PARSED DATA:
+Array
+(
+    [dateOfBirth] => 2025-04-02
+    [gender] => male
+    [weight] => 23
+    [height] => 134
+    [activityLevel] => medium
+    [userId] => 107
+    [BMI] => 12.8
+)
+
+KEYS:
+dateOfBirth, gender, weight, height, activityLevel, userId, BMI
+RAW INPUT:
+{"dateOfBirth":"2025-04-02","gender":"male","weight":"123","height":"122","activityLevel":"low","userId":"107","BMI":"82.6"}
+
+RAW INPUT:
+{"dateOfBirth":"2025-04-02","gender":"male","weight":"123","height":"122","activityLevel":"low","userId":"107","BMI":"82.6"}
+
+RAW INPUT:
+{"dateOfBirth":"2025-04-01","gender":"female","weight":"45","height":"124","activityLevel":"medium","userId":"107","BMI":"29.3"}
+
+RAW INPUT:
+{"dateOfBirth":"2025-04-01","gender":"male","weight":"34","height":"234","activityLevel":"high","userId":"107","BMI":"6.2"}
+
+RAW INPUT:
+{"dateOfBirth":"2025-04-01","gender":"male","weight":"34","height":"234","activityLevel":"high","userId":"107","BMI":"6.2"}
+
+RAW INPUT:
+{"dateOfBirth":"2025-04-01","gender":"male","weight":"34","height":"234","activityLevel":"high","userId":"107","BMI":"6.2"}
+
+RAW INPUT:
+{"dateOfBirth":"2025-04-01","gender":"male","weight":"34","height":"234","activityLevel":"high","userId":"107","BMI":"6.2"}
+
+RAW INPUT:
+{"dateOfBirth":"2025-04-01","gender":"male","weight":"34","height":"234","activityLevel":"high","userId":"107","BMI":"6.2"}
+
+RAW INPUT:
+
+
+RAW INPUT:
+{"dateOfBirth":"2025-04-01","gender":"male","weight":"34","height":"234","activityLevel":"high","userId":"107","BMI":"6.2"}
+
+RAW INPUT:
+
+
+RAW INPUT:
+{"dateOfBirth":"2025-04-01","gender":"male","weight":"34","height":"234","activityLevel":"high","userId":"107","BMI":"6.2"}
+
+RAW INPUT:
+{"dateOfBirth":"2025-04-01","gender":"male","weight":"34","height":"234","activityLevel":"high","userId":"107","BMI":"6.2"}
+
+RAW INPUT:
+
+
+❌ JSON decode failed: Syntax error
+RAW INPUT:
+
+
+RAW INPUT:
+{"dateOfBirth":"2025-04-01","gender":"male","weight":"34","height":"234","activityLevel":"high","userId":"107","BMI":"6.2"}
+
+Fetched user_id: 127
+Fetched user_id: 127
+Fetched user_id: 127
+Fetched user_id: 127
+GET: "127"
+GET: "2025-04-03 22:55:43"
+Fetched user_id: 127
+GET: "127"
+GET: "2025-04-03 22:55:26"
+Fetched user_id: 127
+Fetched user_id: 127
+Fetched user_id: 127
+Fetched user_id: 127
+Fetched user_id: 127
+Fetched user_id: 127
+Fetched user_id: 127
+Fetched user_id: 127
+Fetched user_id: 127
+GET: "127"
+GET: "2025-04-03 22:57:58"
+Fetched user_id: 127
+GET: {"user_id":"127"}
+Fetched user_id: 127
 Received Raw Data: EMPTY
 Decoded Data: 
-Error: Missing email or password
-Received Raw Data: {"email":"test@gmail.com","password":"12345678Aa."}
+Received Raw Data: EMPTY
+Decoded Data: 
+Received Raw Data: {"program_name":"Beginner Endurance Program"}
 Decoded Data: Array
 (
-    [email] => test@gmail.com
+    [program_name] => Beginner Endurance Program
+)
+
+Received Raw Data: {"program_name":"Beginner Endurance Program"}
+Decoded Data: Array
+(
+    [program_name] => Beginner Endurance Program
+)
+
+Fetched user_id: 127
+Fetched user_id: 127
+Fetched user_id: 127
+Fetched user_id: 127
+Received Raw Data: EMPTY
+Decoded Data: 
+Received Raw Data: EMPTY
+Decoded Data: 
+Received Raw Data: {"program_name":"Beginner Endurance Program"}
+Decoded Data: Array
+(
+    [program_name] => Beginner Endurance Program
+)
+
+Received Raw Data: {"program_name":"Beginner Endurance Program"}
+Decoded Data: Array
+(
+    [program_name] => Beginner Endurance Program
+)
+
+Received Raw Data: {"email":"new@gmail.com","password":"12345678Aa."}
+Decoded Data: Array
+(
+    [email] => new@gmail.com
     [password] => 12345678Aa.
 )
 
-Sanitized Email: test@gmail.com
-User found: Array
-(
-    [user_id] => 113
-    [email] => test@gmail.com
-    [password_hash] => $2y$10$gMluRbi6yP1FITQmWMHJK.nT7X0qtNQk4GrCIPIXUVbylK3GCqWXu
-    [role] => user
-)
-
-Password verified
-Login successful for user ID: 113
-Response Sent: {"success":true,"role":"user","userId":113,"message":"Login successful"}
-<<<<<<< HEAD
-=======
-Received Raw Data: {"email":"wssw","password":"swswws"}
-Decoded Data: Array
-(
-    [email] => wssw
-    [password] => swswws
-)
-
-Sanitized Email: wssw
-Error: Invalid credentials
-Received Raw Data: {"email":"wssw","password":"swswws"}
-Decoded Data: Array
-(
-    [email] => wssw
-    [password] => swswws
-)
-
-Sanitized Email: wssw
-Error: Invalid credentials
-Received Data: 
-Received Data: Array
-(
-    [dateOfBirth] => 
-    [gender] => 
-    [weight] => 0
-    [height] => 0
-    [activityLevel] => 
-    [userId] => 126
-)
-
-Received Raw Data: {"email":"gpt@gmail.com","password":" GptPlus1@"}
-Decoded Data: Array
-(
-    [email] => gpt@gmail.com
-    [password] =>  GptPlus1@
-)
-
-Sanitized Email: gpt@gmail.com
-Login successful for user ID: 126
-Response Sent: {"success":true,"role":"user","userId":126,"message":"Login successful"}
-Received Data: 
-Received Data: Array
-(
-    [dateOfBirth] => 
-    [gender] => 
-    [weight] => 0
-    [height] => 0
-    [activityLevel] => 
-    [userId] => 127
-)
-
-Received Raw Data: {"email":"gpt@gmail.com","password":"GptPlus1@"}
-Decoded Data: Array
-(
-    [email] => gpt@gmail.com
-    [password] => GptPlus1@
-)
-
-Sanitized Email: gpt@gmail.com
-Login successful for user ID: 126
-Response Sent: {"success":true,"role":"user","userId":126,"message":"Login successful"}
-Received Raw Data: {"email":"testing11@gmail.com","password":"TestingPlus1@"}
-Decoded Data: Array
-(
-    [email] => testing11@gmail.com
-    [password] => TestingPlus1@
-)
-
-Sanitized Email: testing11@gmail.com
+Sanitized Email: new@gmail.com
 Login successful for user ID: 127
 Response Sent: {"success":true,"role":"user","userId":127,"message":"Login successful"}
-Received Raw Data: {"email":"gpt@gmail.com","password":"GptPlus1@"}
-Decoded Data: Array
-(
-    [email] => gpt@gmail.com
-    [password] => GptPlus1@
-)
-
-Sanitized Email: gpt@gmail.com
-Login successful for user ID: 126
-Response Sent: {"success":true,"role":"user","userId":126,"message":"Login successful"}
-Debug Log: Debug Log: Array
-(
-    [user_id] => 126
-    [id] => 90_90_Hamstring
-    [action] => add
-)
-Debug Log: Array
-(
-    [user_id] => 126
-    [id] => 90_90_Hamstring
-    [action] => remove
-)
-Debug Log: Debug Log: Array
-(
-    [user_id] => 126
-    [id] => 90_90_Hamstring
-    [action] => add
-)
-Received Raw Data: EMPTY
-Received Raw Data: EMPTY
-Decoded Data: 
-Decoded Data: 
-Received Raw Data: {"program_name":"Expert Power & Strength Program"}
-Decoded Data: Array
-(
-    [program_name] => Expert Power & Strength Program
-)
-
-Received Raw Data: {"program_name":"Expert Power & Strength Program"}
-Decoded Data: Array
-(
-    [program_name] => Expert Power & Strength Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Flexibility Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Flexibility Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Expert Power & Strength Program"}
-Decoded Data: Array
-(
-    [program_name] => Expert Power & Strength Program
-)
-
-Received Raw Data: EMPTY
-Decoded Data: 
-Received Raw Data: {"program_name":"Expert Power & Strength Program"}
-Decoded Data: Array
-(
-    [program_name] => Expert Power & Strength Program
-)
-
-Received Raw Data: {"program_name":"Beginner Flexibility Program"}
-Received Raw Data: {"program_name":"Beginner Flexibility Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Flexibility Program
-)
-
-Received Raw Data: EMPTY
-Received Raw Data: EMPTY
-Decoded Data: 
-Decoded Data: 
-Received Raw Data: {"program_name":"Beginner Flexibility Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Flexibility Program
-)
-
-Received Raw Data: {"program_name":"Beginner Flexibility Program"}
-Decoded Data: Array
-(
-    [program_name] => Beginner Flexibility Program
-)
-
-Received Data: 
-Received Data: Array
-(
-    [dateOfBirth] => 2025-03-20
-    [gender] => female
-    [weight] => 100
-    [height] => 180
-    [activityLevel] => medium
-    [userId] => 126
-)
-
-Received Data: 
-Received Data: Array
-(
-    [dateOfBirth] => 2025-03-04
-    [gender] => male
-    [weight] => 60
-    [height] => 140
-    [activityLevel] => low
-    [userId] => 126
-)
-
-Received Data: 
-Received Data: Array
-(
-    [dateOfBirth] => 2025-03-14
-    [gender] => male
-    [weight] => 70
-    [height] => 180
-    [activityLevel] => medium
-    [userId] => 126
-)
-
-Received Data: 
-Received Data: Array
-(
-    [dateOfBirth] => 2025-03-21
-    [gender] => male
-    [weight] => 67
-    [height] => 170
-    [activityLevel] => medium
-    [userId] => 126
-)
-
-Debug Log: Debug Log: Array
-(
-    [user_id] => 126
-    [id] => 3_4_Sit-Up
-    [action] => add
-)
-Debug Log: Array
-(
-    [user_id] => 126
-    [id] => 3_4_Sit-Up
-    [action] => remove
-)
-Debug Log: Array
-(
-    [user_id] => 126
-    [id] => 3_4_Sit-Up
-    [action] => add
-)
-Debug Log: Debug Log: Array
-(
-    [user_id] => 126
-    [id] => 3_4_Sit-Up
-    [action] => remove
-)
-Received Raw Data: EMPTY
-Received Raw Data: EMPTY
-Decoded Data: 
-Decoded Data: 
-Received Raw Data: {"program_name":"Intermediate Weight Loss Program"}
-Received Raw Data: {"program_name":"Intermediate Weight Loss Program"}
-Decoded Data: Array
-(
-    [program_name] => Intermediate Weight Loss Program
-)
-
-Decoded Data: Array
-(
-    [program_name] => Intermediate Weight Loss Program
-)
-
-Received Raw Data: EMPTY
-Received Raw Data: EMPTY
-Decoded Data: 
-Decoded Data: 
-Received Raw Data: {"program_name":"Intermediate Weight Loss Program"}
-Decoded Data: Array
-(
-    [program_name] => Intermediate Weight Loss Program
-)
-
-Decoded Data: Array
-(
-    [program_name] => Intermediate Weight Loss Program
-)
-
-Received Data: 
-Received Data: Array
-(
-    [dateOfBirth] => 2025-03-13
-    [gender] => female
-    [weight] => 60
-    [height] => 150
-    [activityLevel] => medium
-    [userId] => 126
-)
-
->>>>>>> copy-enhanced-ui-chatbot-changes
+Fetched user_id: 118
+Fetched user_id: 118
+Fetched user_id: 118
+Fetched user_id: 118
+Fetched user_id: 118
+Fetched user_id: 118
+Fetched user_id: 118
+Fetched user_id: 118
+Fetched user_id: 118
+Fetched user_id: 118
+Fetched user_id: 118
+Fetched user_id: 118
+Fetched user_id: 118
+Fetched user_id: 118
+Fetched user_id: 118
+Fetched user_id: 118
+Fetched user_id: 127
+Fetched user_id: 127
+Fetched user_id: 127
+GET: "127"
+GET: "2025-04-05 00:54:48"
+Fetched user_id: 127
+Fetched user_id: 127
+Fetched user_id: 127

@@ -11,18 +11,16 @@ if (!extension_loaded('openssl')) {
     die('OpenSSL extension is not loaded.');
 }
 
-<<<<<<< HEAD
-=======
 // Add session_start for consistent session handling with Login.php
 session_start();
 
->>>>>>> copy-enhanced-ui-chatbot-changes
 header("Access-Control-Allow-Origin: *");
 header("Access-Control-Allow-Methods: POST");
 header("Access-Control-Allow-Headers: Content-Type");
 header("Content-Type: application/json");
 
 include '../../config/db.php';   //  database connection
+include '../../config/config.php';
 
 // Read the raw POST data
 $data = file_get_contents("php://input");
@@ -33,12 +31,8 @@ $name = isset($decodedData["name"]) ? $decodedData["name"] : "Guest";
 $email = isset($decodedData["email"]) ? $decodedData["email"] : "No email provided";
 $password = isset($decodedData["password"]) ? $decodedData["password"] : "No password provided";
 
-<<<<<<< HEAD
-
-=======
 // Log received data for debugging
 file_put_contents("signup_debug.txt", "Received data: " . print_r($decodedData, true), FILE_APPEND);
->>>>>>> copy-enhanced-ui-chatbot-changes
 
 // Ensure database connection is working
 if (!isset($db)) {
@@ -60,12 +54,6 @@ if ($checkEmailQuery->num_rows > 0) {
 
 $checkEmailQuery->close();
 
-<<<<<<< HEAD
-
-
-
-=======
->>>>>>> copy-enhanced-ui-chatbot-changes
 // Insert user into `auth` table
 $created_at = date("Y-m-d H:i:s");
 $password_hash = password_hash($password, PASSWORD_DEFAULT);
@@ -73,10 +61,6 @@ $password_hash = password_hash($password, PASSWORD_DEFAULT);
 $insert_query = $db->prepare("INSERT INTO auth (email, password_hash, name, role, created_at) VALUES (?, ?, ?, ?, ?)");
 $test_role = "user"; // Default role
 
-<<<<<<< HEAD
-
-=======
->>>>>>> copy-enhanced-ui-chatbot-changes
 $insert_query->bind_param("sssss", $email, $password_hash, $name, $test_role, $created_at);
 if ($insert_query->execute()) {
 
@@ -91,11 +75,8 @@ if ($insert_query->execute()) {
         $stmt->close();
 
         if ($user) {
-<<<<<<< HEAD
-=======
             // Set session variables like in Login.php
             session_regenerate_id(true);
->>>>>>> copy-enhanced-ui-chatbot-changes
             $_SESSION['user_id'] = $user['user_id'];
             $_SESSION['role'] = $user['role'];
             $_SESSION['loggedin'] = true;
@@ -132,13 +113,5 @@ file_put_contents("debug_response.json", json_encode($response));
 // Send the final JSON response
 echo json_encode($response);
 
-<<<<<<< HEAD
-
-
-
 $insert_query->close();
 $db->close();
-=======
-$insert_query->close();
-$db->close();
->>>>>>> copy-enhanced-ui-chatbot-changes

@@ -15,6 +15,10 @@ import ProgramDetails from "./components/ProgramDetails";
 import ShowFavorite from "./components/ShowFavorite";
 import ExerciseFilter from "./components/ExerciseFilter";
 import ChatBot from "./components/ChatBot";
+import FoodSearch from "./components/foodSearch";
+import CaloriesCalculator from "./components/caloriesCalculator";
+import Test from "./components/test";
+
 
 function App() {
   return (
@@ -47,6 +51,8 @@ function App() {
             <Route path="/home/exercisefilter" element={<ExerciseFilter />} />
             <Route path="/home/exercisefilter/exercisedetails" element={<ExerciseDetails />} />
             <Route path="/home/showfavorite" element={<ShowFavorite />} />
+            <Route path="/home/foodsearch" element={<FoodSearch />} />
+            <Route path="/home/caloriesCalculator" element={<CaloriesCalculator />} />
             
             {/* Fitness programs routes */}
             <Route path="/home/fitnessprograms" element={<FitnessPrograms />} />
@@ -54,6 +60,8 @@ function App() {
             
             {/* ChatBot standalone route */}
             <Route path="/home/chatbot" element={<ChatBot />} />
+            <Route path="/home/test" element={<Test />} />
+
             
             {/* Handle any incorrect paths */}
             <Route path="*" element={<Navigate to="/" replace />} />
