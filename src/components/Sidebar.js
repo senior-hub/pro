@@ -13,9 +13,10 @@ const Sidebar = () => {
         { path: "/home/ExerciseFilter", icon: "fa-solid fa-magnifying-glass", label: "Exercise Search" },
         { path: "/Home/ShowFavorite", icon: "fa-solid fa-heart", label: "Favorites" },
         { path: "/Home/FitnessPrograms", icon: "fas fa-dumbbell", label: "Workout Plan" },
-        { path: "/nutrition", icon: "fas fa-apple-alt", label: "Nutrition Plan" },
+        { path: "/Home/FoodSearch", icon: "fas fa-apple-alt", label: "Nutritions" },
         { path: "/Home/ChatBot", icon: "fas fa-robot", label: "AI Fitness" },
-        { path: "/profile", icon: "fas fa-user", label: "Profile" }
+        { path: "/profile", icon: "fas fa-user", label: "Profile" },
+        { path: "/home/caloriesCalculator", icon: "fa-solid fa-calculator", label: (<><span>Calories<br />Calculator</span></>) }
     ];
     
     // Check if path is active

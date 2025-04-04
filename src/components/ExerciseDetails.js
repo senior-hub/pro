@@ -9,28 +9,44 @@ const ExerciseDetails = () => {
   const navigate = useNavigate();
   const location = useLocation();
   const exercise = location.state?.exercise || {}; // Prevent undefined
-  const id = exercise.id || ""; // Ensure id is always available
-
-  const [isFavorite, setIsFavorite] = useState(false);
+  const id = exercise.id || ""; // Ensure id is always available  const { userId } = useApp();
   
-  useEffect(() => {
-    const storedFavorite = localStorage.getItem(`favorite_${id}`);
-    setIsFavorite(storedFavorite === "true"); // If "true", set true, else false
-  }, [id]); // Runs once when component mounts or when `id` changes
 
+  
+ 
   // Fetch favorite status from backend when component mounts
   useEffect(() => {
+    
     const fetchFavoriteStatus = async () => {
+      
       if (!userId || !id) return;
 
       try {
-        const response = await fetch(`http://localhost/my-app/src/backend/ShowFavorite.php?user_id=${userId}&id=${id}`);
-        const data = await response.json();
+          const response = await fetch("http://localhost/my-app/src/backend/ShowFavorite.php", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ user_id: userId }),
+          });      
+          const data = await response.json();
 
-        if (data.success) {
-          const newStatus = !isFavorite;
-          setIsFavorite(newStatus);
-          localStorage.setItem(`favorite_${id}`, newStatus.toString()); // Store new status
+        if (data.success) {  
+          const searchId = id;
+          const foundExercise = data.exercises.find(exercise => String(exercise.id) === String(searchId));
+
+          console.log(`true`);
+              console.log(data.exercises);
+              console.log(id);
+              if (foundExercise) {
+                console.log("Found exercise:", foundExercise);
+                setIsFavorite(true);
+
+              } else {
+                console.log("Exercise not found");
+                setIsFavorite(false);
+
+              }
+        } else {
+          console.log(`false`);
         }
       } catch (error) {
         console.error("Error fetching favorite status:", error);
@@ -39,6 +55,19 @@ const ExerciseDetails = () => {
 
     fetchFavoriteStatus();
   }, [userId, id]);
+
+  const [isFavorite, setIsFavorite] = useState(false);
+  useEffect(() => {
+
+    const favoriteStatus = localStorage.getItem(`favorite_${id}`);
+    if (favoriteStatus === "true") {
+      setIsFavorite(true);
+    }
+    else {
+      setIsFavorite(false); // Default to false if not found
+    }
+  }, [userId, id]);
+   
 
   // Toggle Favorite Status (Add/Remove from Backend & LocalStorage)
   const toggleFavorite = async () => {
@@ -73,6 +102,7 @@ const ExerciseDetails = () => {
       console.error("Error updating favorite:", error);
     }
   };
+
 
   // Navigate to Favorites Page
   const handleShowFavorites = () => {

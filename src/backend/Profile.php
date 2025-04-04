@@ -1,54 +1,64 @@
 <?php
-session_start();
-header("Access-Control-Allow-Origin: http://localhost:3000");
-header("Content-Type: application/json");
-header("Access-Control-Allow-Credentials: true");
-header("Access-Control-Allow-Methods: POST, OPTIONS");
-header("Access-Control-Allow-Headers: Content-Type");
+
+
+
+
+// Database connection
+include '../../config/db.php';
+include '../../config/config.php';
 
 error_reporting(E_ALL);
 ini_set('display_errors', 0);
+$data = json_decode(file_get_contents("php://input"), true);
 
-include '../../config/db.php';   //  database connection
+if (!$data || !is_array($data)) {
+    echo json_encode(["success" => false, "message" => "Invalid or missing JSON input."]);
+    exit;
+}
 
 try {
-
-    $rawData = file_get_contents("php://input");
-    $data = json_decode($rawData, true);
-
-    // Log received data
-    file_put_contents("debug_log.txt", "Received Data: " . print_r($data, true) . "\n", FILE_APPEND);
-
-    if (!$data || !isset($data['dateOfBirth'], $data['gender'], $data['weight'], $data['height'], $data['activityLevel'])) {
-        echo json_encode(["success" => false, "message" => "Error: Missing required fields."]);
-        exit;
-    }
-
+ 
+    
+    
+    
     $date_of_birth = trim($data['dateOfBirth']);
     $gender = trim($data['gender']);
     $weight = floatval($data['weight']);
+
+
     $height = floatval($data['height']);
     $activity_level = trim($data['activityLevel']);
     $user_id =  trim($data['userId']);
 
+    $BMI = $weight / (($height / 100) ** 2);
 
     $updated_at = date("Y-m-d H:i:s");
 
-    // Prepare the SQL statement with placeholders
-    $stmt = $db->prepare("INSERT INTO users (user_id, date_of_birth, gender, weight, height, activity_level, updated_at)
-    VALUES (?, ?, ?, ?, ?, ?, NOW())");
+    $stmt = $db->prepare("
+    INSERT INTO users (
+        user_id, date_of_birth, gender, weight, height, activity_level, updated_at, BMI
+    ) VALUES (
+        ?, ?, ?, ?, ?, ?, NOW(), ?
+    )
+    ON DUPLICATE KEY UPDATE
+        date_of_birth = VALUES(date_of_birth),
+        gender = VALUES(gender),
+        weight = VALUES(weight),
+        height = VALUES(height),
+        activity_level = VALUES(activity_level),
+        updated_at = NOW(),
+        BMI = VALUES(BMI)
+");
 
-    // Check for a successful preparation
-    if (!$stmt) {
-        echo json_encode(["success" => false, "message" => "Prepare failed: " . $db->error]);
-        exit;
-    }
-
-
-    // Bind the parameters to the prepared statement
-    $stmt->bind_param('isddss', $user_id, $date_of_birth, $gender, $weight, $height, $activity_level);
-    $stmt->execute();
-    // Execute the statement and handle the response
+$stmt->execute([
+    $user_id,
+    $date_of_birth,
+    $gender,
+    $weight,
+    $height,
+    $activity_level,
+    $BMI
+]);
 
     if ($stmt->affected_rows > 0) {
         echo json_encode(["success" => true, "message" => "Profile updated successfully!"]);

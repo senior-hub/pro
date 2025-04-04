@@ -19,8 +19,7 @@ const ShowFavorite = () => {
     }
     return "N/A";
   };
-
-  // Fetch Favorite Exercises from API
+  // ✅ Fetch Favorite Exercises from API
   const fetchFavorites = async () => {
     try {
       const response = await fetch("http://localhost/my-app/src/backend/ShowFavorite.php", {
@@ -30,11 +29,18 @@ const ShowFavorite = () => {
       });
 
       const data = await response.json();
-      setFavorites(data.exercises || []);
+      setFavorites(data.exercises || []); // Store exercises in state
     } catch (error) {
       console.error("Error fetching favorites:", error);
     }
   };
+
+  useEffect(() => {
+    if (userId) {
+      fetchFavorites(); // Call fetch function only if userId exists
+    }
+  }, [userId]);
+
 
   useEffect(() => {
     if (userId) {
@@ -58,7 +64,7 @@ const ShowFavorite = () => {
       } else {
         console.error(data.message);
       }
-      // Re-fetch favorites after successful submission
+      // ✅ Re-fetch favorites after successful submission
       fetchFavorites();
     } catch (error) {
       console.error("Error:", error);

@@ -1,0 +1,20 @@
+[03-Apr-2025 19:45:23 UTC] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in C:\xampp\htdocs\my-app\src\backend\Profile.php:78
+Stack trace:
+#0 C:\xampp\htdocs\my-app\src\backend\Profile.php(78): mysqli_stmt->bind_param('ssddsd i', '2025-04-01', 'male', 34.0, 234.0, 'high', 6.2, 107)
+#1 {main}
+  thrown in C:\xampp\htdocs\my-app\src\backend\Profile.php on line 78
+[03-Apr-2025 19:45:27 UTC] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in C:\xampp\htdocs\my-app\src\backend\Profile.php:78
+Stack trace:
+#0 C:\xampp\htdocs\my-app\src\backend\Profile.php(78): mysqli_stmt->bind_param('ssddsd i', '2025-04-01', 'male', 34.0, 234.0, 'high', 6.2, 107)
+#1 {main}
+  thrown in C:\xampp\htdocs\my-app\src\backend\Profile.php on line 78
+[03-Apr-2025 19:45:55 UTC] PHP Fatal error:  Uncaught TypeError: array_map(): Argument #2 ($array) must be of type array, null given in C:\xampp\htdocs\my-app\src\backend\Profile.php:32
+Stack trace:
+#0 C:\xampp\htdocs\my-app\src\backend\Profile.php(32): array_map('trim', NULL)
+#1 {main}
+  thrown in C:\xampp\htdocs\my-app\src\backend\Profile.php on line 32
+[03-Apr-2025 19:47:00 UTC] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in C:\xampp\htdocs\my-app\src\backend\Profile.php:72
+Stack trace:
+#0 C:\xampp\htdocs\my-app\src\backend\Profile.php(72): mysqli_stmt->bind_param('ssddsd i', '2025-04-01', 'male', 34.0, 234.0, 'high', 6.2, 107)
+#1 {main}
+  thrown in C:\xampp\htdocs\my-app\src\backend\Profile.php on line 72

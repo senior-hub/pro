@@ -5,3 +5,34 @@ Received data: Received data: Array
     [password] => TestingPlus1@
     [confirmPassword] => TestingPlus1@
 )
+Received data: Received data: Array
+(
+    [name] => m
+    [email] => mariaaam@gmail.com
+    [password] => 12345678Aa.
+    [confirmPassword] => 12345678Aa.
+)
+[2025-04-03 10:37:29] FoodItem: Vegetable Juice, Grams: 8
+[2025-04-03 10:37:29] FoodItem: Vegetable Juice, Grams: 8
+[2025-04-03 10:37:29] FoodItem: Vegetable Juice, Grams: 8
+[2025-04-03 10:37:29] FoodItem: Vegetable Juice, Grams: 8
+[2025-04-03 10:39:09] FoodItem: Vegetable Juice, Grams: 8
+Calories calculated: Vegetable Juice, Grams: 8, Total Calories: 1.68
+[2025-04-03 10:39:10] FoodItem: Vegetable Juice, Grams: 8
+Calories calculated: Vegetable Juice, Grams: 8, Total Calories: 1.68
+[2025-04-03 10:39:46] FoodItem: White Grape Juice, Grams: 100
+Calories calculated: White Grape Juice, Grams: 100, Total Calories: 75
+[2025-04-03 10:42:06] FoodItem: White Grape Juice, Grams: 100
+Calories calculated: White Grape Juice, Grams: 100, Total Calories: 75
+[2025-04-03 10:43:01] FoodItem: White Grape Juice, Grams: 100
+Calories calculated: White Grape Juice, Grams: 100, Total Calories: 75
+[2025-04-03 10:43:05] FoodItem: White Grape Juice, Grams: 100
+Calories calculated: White Grape Juice, Grams: 100, Total Calories: 75
+[2025-04-03 10:43:16] FoodItem: White Grape Juice, Grams: 100
+Received data: Received data: Array
+(
+    [name] => new
+    [email] => new@gmail.com
+    [password] => 12345678Aa.
+    [confirmPassword] => 12345678Aa.
+)

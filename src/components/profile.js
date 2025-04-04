@@ -28,35 +28,9 @@ const Profile = () => {
     if (!loggedIn) {
       navigate("/login");
     } else {
-      fetchUserProfile();
     }
   }, [navigate, userId]);
 
-  const fetchUserProfile = async () => {
-    if (!userId) return;
-    
-    try {
-      setIsLoading(true);
-      const response = await fetch(`http://localhost/my-app/src/backend/GetProfile.php?userId=${userId}`);
-      const data = await response.json();
-      
-      if (data.success && data.profile) {
-        setUserProfile(data.profile);
-        setProfileExists(true);
-        
-        // Pre-fill form with existing data
-        setDateOfBirth(data.profile.dateOfBirth || "");
-        setGender(data.profile.gender || "");
-        setWeight(data.profile.weight || "");
-        setHeight(data.profile.height || "");
-        setActivityLevel(data.profile.activityLevel || "");
-      }
-    } catch (error) {
-      console.error("Error fetching profile:", error);
-    } finally {
-      setIsLoading(false);
-    }
-  };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -72,13 +46,16 @@ const Profile = () => {
     setMessage("");
 
     try {
+
+      const BMI = calculateBMI();
       const requestData = { 
         dateOfBirth, 
         gender, 
         weight, 
         height, 
         activityLevel, 
-        userId 
+        userId,
+        BMI
       };
       
       const response = await fetch("http://localhost/my-app/src/backend/Profile.php", {
@@ -180,7 +157,6 @@ const Profile = () => {
                     <option value="">Select Gender</option>
                     <option value="male">Male</option>
                     <option value="female">Female</option>
-                    <option value="other">Other</option>
                   </select>
                 </div>
               </div>
